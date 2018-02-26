@@ -68,7 +68,7 @@ public class BRConstants {
     public static final String FEE_KB_PREFS = "feeKb";
     public static final String ECONOMY_FEE_KB_PREFS = "EconomyFeeKb";
     public static final String LITTLE_CIRCLE = "\u2022";
-    public static String SUPPORT_EMAIL = "support@loafwallet.com";
+    public static String SUPPORT_EMAIL = "support@onem.com";
 
     public static final int ONE_BITCOIN = 100000000;
     public static final int HUNDRED_BITS = 10000000;
@@ -142,11 +142,11 @@ public class BRConstants {
     public static final String wipeWallet = "wipe-wallet";
 
     // or https://twitter.com/loafwallet
-    public static final String TWITTER_LINK = "https://twitter.com/ltcfoundation";
-    public static final String REDDIT_LINK = "https://www.reddit.com/r/litecoin";
-    public static final String BLOG_LINK = "http://loafwallet.org";
+    public static final String TWITTER_LINK = "https://twitter.com/mcoin";
+    public static final String REDDIT_LINK = "https://www.reddit.com/r/mcoin";
+    public static final String BLOG_LINK = "http://mcoin.global";
 
-    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "http://explorer.litecointools.com/tx/" :"https://insight.litecore.io/tx/";
+    public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "http://explorer.mcoin.global/tx/" :"https://explorer.mcoin.global/tx/";
 
     private BRConstants() {
     }

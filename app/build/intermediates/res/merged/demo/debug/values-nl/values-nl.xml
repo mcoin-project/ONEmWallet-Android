@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="About.blog">Blog</string>
+    <string name="About.footer">Gemaakt door het globale Bread team. Versie %1$s.</string>
+    <string name="About.privacy">Privacyverklaring</string>
+    <string name="About.reddit">Reddit</string>
+    <string name="About.terms">Gebruikersvoorwaarden</string>
+    <string name="About.title">Over</string>
+    <string name="About.twitter">Twitter</string>
+    <string name="AccessibilityLabels.close">Sluiten</string>
+    <string name="AccessibilityLabels.faq">Ondersteuningscentrum</string>
+    <string name="Account.loadingMessage">Portemonnee Laden</string>
+    <string name="AccountHeader.defaultWalletName">Mijn Bread</string>
+    <string name="AccountHeader.equals">=</string>
+    <string name="AccountHeader.manageButtonName">BEHEREN</string>
+    <string name="Alert.error">Error</string>
+    <string name="Alert.noInternet">Er is geen internetconnectie gevonden. Controleer je connectie en probeer opnieuw.</string>
+    <string name="Alert.warning">Waarschuwing</string>
+    <string name="Alerts.copiedAddressesHeader">Adressen Gekopieerd</string>
+    <string name="Alerts.copiedAddressesSubheader">Alle portemonnee adressen zijn succesvol gekopieerd.</string>
+    <string name="Alerts.paperKeySet">Papieren Sleutel Set.</string>
+    <string name="Alerts.paperKeySetSubheader">Geweldig!</string>
+    <string name="Alerts.pinSet">PIN Set.</string>
+    <string name="Alerts.sendFailure">Zending mislukt</string>
+    <string name="Alerts.sendSuccess">Zending Bevestiging</string>
+    <string name="Alerts.sendSuccessSubheader">Geld Verstuurd!</string>
+    <string name="ApiClient.jsonError">JSON Serialisatie Error</string>
+    <string name="ApiClient.notReady">Portemonnee niet gereed</string>
+    <string name="ApiClient.tokenError">Niet in staat op API teken te vinden</string>
+    <string name="BCH.body">Voer hieronder een BCH bestemmingsadres in. Alle BCH die op het moment van de fork  (%1$s) in in je portomonnee zitten, zullen worden gestuurd.</string>
+    <string name="BCH.confirmationMessage">Sturen van %1$s naar %2$s bevestigen</string>
+    <string name="BCH.confirmationTitle">Bevestiging</string>
+    <string name="BCH.genericError">Je account bevat geen BCH of je hebt BCH ontvangen na de fork.</string>
+    <string name="BCH.hashCopiedMessage">Transactie-ID gekopieerd</string>
+    <string name="BCH.noAddressError">Voer alstublieft een adres in</string>
+    <string name="BCH.paymentProtocolError">Betalingsprotocol-aanvragen worden niet ondersteund voor tranacties met BCH</string>
+    <string name="BCH.successMessage">BCH succesvol verstuurd.</string>
+    <string name="BCH.title">BCH opnemen</string>
+    <string name="BCH.txHashHeader">BCH Transactie-ID.</string>
+    <string name="BitID.approve">Keur goed</string>
+    <string name="BitID.authenticationRequest">%1$s vraagt om authenticatie om je bitcoin-portemonnee te gebruiken</string>
+    <string name="BitID.deny">Weigeren</string>
+    <string name="BitID.error">Authenticatie Fout</string>
+    <string name="BitID.errorMessage">Vraag het na bij de service. Je moet het mogelijk opnieuw proberen.</string>
+    <string name="BitID.success">Succesvol geautenticeerd</string>
+    <string name="BitID.title">BitID Authenticatieverzoek</string>
+    <string name="Button.cancel">Annuleren</string>
+    <string name="Button.ignore">Negeren</string>
+    <string name="Button.menu">menu</string>
+    <string name="Button.no">Nee</string>
+    <string name="Button.ok">OK</string>
+    <string name="Button.receive">ontvangen</string>
+    <string name="Button.send">versturen</string>
+    <string name="Button.settings">Instellingen</string>
+    <string name="Button.submit">Indienen</string>
+    <string name="Button.yes">Ja</string>
+    <string name="CameraPlugin.centerInstruction">Centreer je ID in het vak</string>
+    <string name="ConfirmPaperPhrase.label">Voer de volgende woorden in van je papieren sleutel om te verzekeren dat alles correct is opgeschreven.</string>
+    <string name="ConfirmPaperPhrase.word">Woord #%1$s</string>
+    <string name="Confirmation.amountLabel">Bedrag om te Versturen:</string>
+    <string name="Confirmation.feeLabel">Netwerkkosten:</string>
+    <string name="Confirmation.processingTime">Verwerkingstijd: Deze transactie zal %1$s minuten kosten om te verwerken.</string>
+    <string name="Confirmation.send">Versturen</string>
+    <string name="Confirmation.title">Bevestiging</string>
+    <string name="Confirmation.to">Naar</string>
+    <string name="Confirmation.totalLabel">Totale Prijs:</string>
+    <string name="DefaultCurrency.litecoinLabel">Litecoin-eenheid</string>
+    <string name="DefaultCurrency.rateLabel">Wisselkoers</string>
+    <string name="ErrorMessages.emailUnavailableMessage">Dit apparaat is niet geconfigureerd om e-mails te sturen via de iOS Mail app.</string>
+    <string name="ErrorMessages.emailUnavailableTitle">E-mail Niet Beschikbaar</string>
+    <string name="ErrorMessages.messagingUnavailableMessage">Dit apparaat is niet geconfigureerd om berichten te sturen.</string>
+    <string name="ErrorMessages.messagingUnavailableTitle">Bericht Sturen Onbeschikbaar</string>
+    <string name="FeeSelector.economy">Enonomy</string>
+    <string name="FeeSelector.economyLabel">Geschatte Bezorgingstijd: 60+ minuten</string>
+    <string name="FeeSelector.economyWaring">Deze optie wordt niet aangeraden voor tijdgevoelige transacties.</string>
+    <string name="FeeSelector.regular">Normaal</string>
+    <string name="FeeSelector.regularLabel">Geschatte Bezorgingstijd: 10-30 minuten</string>
+    <string name="FeeSelector.title">Verwerkingssnelheid</string>
+    <string name="Import.Error.duplicate">Deze persoonlijke sleutel zit al in je portemonnee.</string>
+    <string name="Import.Error.empty">Deze persoonlijke sleutel is leeg.</string>
+    <string name="Import.Error.highFees">Transactiekosten zouden hoger zijn dan de fondsen die op deze private sleutel aanwezig zijn.</string>
+    <string name="Import.Error.notValid">Geen geldige persoonlijke sleutel</string>
+    <string name="Import.Error.signing">Error transactie ondertekenen</string>
+    <string name="Import.SuccessBody">Succesvol portemonnee geïmporteerd.</string>
+    <string name="Import.checking">Persoonlijke sleutel balans checken...</string>
+    <string name="Import.confirm">%1$s (%2$s) van deze persoonlijke sleutel naar je portemonnee sturen? Het Litecoin netwerk zal een heffing ontvangen van %3$s (%4$s).</string>
+    <string name="Import.importButton">Importeren</string>
+    <string name="Import.importing">Portemonnee Importeren</string>
+    <string name="Import.leftCaption">Portemonnee die geïmporteerd kan worden</string>
+    <string name="Import.message">Door een portemonnee te importeren plaats je het geld van je andere portemonnee naar je Bread portemonnee via een enkele transactie.</string>
+    <string name="Import.password">Deze persoonlijke sleutel is beveiligd met een wachtwoord.</string>
+    <string name="Import.passwordPlaceholder">wachtwoord</string>
+    <string name="Import.rightCaption">Jouw Bread Portemonnee</string>
+    <string name="Import.scan">Scan Persoonlijke Sleutel</string>
+    <string name="Import.success">Succes</string>
+    <string name="Import.title">Importeer Portemonnee</string>
+    <string name="Import.unlockingActivity">Sleutel Ontgrendelen</string>
+    <string name="Import.warning">Door een portemonnee te importeren zet je niet de transactie geschiedenis of andere details over.</string>
+    <string name="Import.wrongPassword">Verkeerd wachtwoord, probeer alstublieft opnieuw.</string>
+    <string name="JailbreakWarnings.close">Sluiten</string>
+    <string name="JailbreakWarnings.ignore">Negeren</string>
+    <string name="JailbreakWarnings.messageWithBalance">APPARAAT BEVEILIGING BESCHADIGD\nElke \'jailbreak\' app heeft toegang tot de sleutelhanger data van Bread en kan hiermee je Litecoins stelen! Wis deze portemonnee direct en herstel het op een veilig apparaat.</string>
+    <string name="JailbreakWarnings.messageWithoutBalance">APPARAAT BEVEILIGING BESCHADIGD\nElke \'jailbreak\' app heeft toegang tot de sleutelhanger data van Bread en kan hiermee je Litecoins stelen. Gebruik Bread a.u.b. alleen op een niet-gejailbreakt apparaat.</string>
+    <string name="JailbreakWarnings.title">WAARSCHUWING</string>
+    <string name="JailbreakWarnings.wipe">Wissen</string>
+    <string name="LocationPlugin.disabled">Locatievoorzieningen zijn uitgeschakeld.</string>
+    <string name="LocationPlugin.notAuthorized">Bread heeft geen toestemming om locatievoorzieningen te gebruiken.</string>
+    <string name="ManageWallet.creationDatePrefix">Je hebt je portemonnee gecreëerd op %1$s</string>
+    <string name="ManageWallet.description">Jouw portemonnee naam zal alleen verschijnen in je account transactie geschiedenis en kan door niemand anders worden gezien.</string>
+    <string name="ManageWallet.textFeildLabel">Portemonnee Naam</string>
+    <string name="ManageWallet.title">Portemonnee Beheren</string>
+    <string name="MenuButton.buy">Litecoins Kopen</string>
+    <string name="MenuButton.lock">Portemonnee Vergrendelen</string>
+    <string name="MenuButton.security">Veiligheidscentrum</string>
+    <string name="MenuButton.settings">Instellingen</string>
+    <string name="MenuButton.support">Ondersteuning</string>
+    <string name="MenuViewController.createButton">Nieuwe Portemonnee Creëren</string>
+    <string name="MenuViewController.modalTitle">Menu</string>
+    <string name="MenuViewController.recoverButton">Portemonnee Herstellen</string>
+    <string name="NodeSelector.automaticButton">Omschakelen naar automatische modus</string>
+    <string name="NodeSelector.connected">Verbonden</string>
+    <string name="NodeSelector.enterBody">Voer het IP-adres en de poort (optioneel) van de node in</string>
+    <string name="NodeSelector.enterTitle">Node invoeren</string>
+    <string name="NodeSelector.manualButton">Omschakelen naar handmatige modus</string>
+    <string name="NodeSelector.nodeLabel">Huidige primaire node</string>
+    <string name="NodeSelector.notConnected">Niet Verbonden</string>
+    <string name="NodeSelector.statusLabel">Connectiestatus van de node</string>
+    <string name="NodeSelector.title">Litecoin-nodes</string>
+    <string name="PaymentProtocol.Errors.badPaymentRequest">Slecht Betalingsverzoek</string>
+    <string name="PaymentProtocol.Errors.corruptedDocument">Niet-ondersteund of beschadigd document</string>
+    <string name="PaymentProtocol.Errors.missingCertificate">missend certificaat</string>
+    <string name="PaymentProtocol.Errors.requestExpired">verzoek verlopen</string>
+    <string name="PaymentProtocol.Errors.smallOutputError">Kon de betaling niet uitvoeren</string>
+    <string name="PaymentProtocol.Errors.smallPayment">Litecoin betalingen kunnen niet minder zijn dan %1$s.</string>
+    <string name="PaymentProtocol.Errors.smallTransaction">Litecoin transactie outputs kunnen niet minder zijn dan $@.</string>
+    <string name="PaymentProtocol.Errors.unsupportedSignatureType">niet-ondersteund handtekening type</string>
+    <string name="PaymentProtocol.Errors.untrustedCertificate">niet-vertrouwd certificaat</string>
+    <string name="Prompts.NoPasscode.body">Er is een apparaat-pascode nodig om je portomonnee te beschermen. Ga naar de instellingen en zet je pascode aan.</string>
+    <string name="Prompts.NoPasscode.title">Zet pascode voor apparaat aan</string>
+    <string name="Prompts.PaperKey.body">Uw Papiersleutel moet opgeslagen worden voor het geval dat u uw telefoon ooit verliest of vervangt. Klik hier om door te gaan.</string>
+    <string name="Prompts.PaperKey.title">Actie Vereist</string>
+    <string name="Prompts.RecommendRescan.body">Je portemonnee is misschien niet gesynchroniseerd. Dit kan vaak worden verholpen door de blokketen opnieuw te scannen.</string>
+    <string name="Prompts.RecommendRescan.title">Transactie Geweigerd</string>
+    <string name="Prompts.ShareData.body">Help ons bij het verbeteren van Bread door je anonieme data met ons te delen</string>
+    <string name="Prompts.ShareData.title">Deel Anonieme Data</string>
+    <string name="Prompts.TouchId.body">Tik hier om Touch ID in te schakelen</string>
+    <string name="Prompts.TouchId.title">Touch ID Inschakelen</string>
+    <string name="Prompts.UpgradePin.body">Bread is geüpgrade naar een 6-cijferige PIN. Tik hier om te upgraden.</string>
+    <string name="Prompts.UpgradePin.title">PIN Upgraden</string>
+    <string name="PushNotifications.body">Zet notificaties aan om in de toekomst speciale berichten van Brood te ontvangen.</string>
+    <string name="PushNotifications.label">Push Meldingen</string>
+    <string name="PushNotifications.off">Uit</string>
+    <string name="PushNotifications.on">Aan</string>
+    <string name="PushNotifications.title">Notificaties</string>
+    <string name="ReScan.alertAction">Synchroniseren</string>
+    <string name="ReScan.alertMessage">Je zult niet in staat zijn om geld te versturen wanneer je aan het synchroniseren bent.</string>
+    <string name="ReScan.alertTitle">Synchroniseren met Blockchain?</string>
+    <string name="ReScan.body1">20-45 minuten</string>
+    <string name="ReScan.body2">Als een transactie als voltooid staat op het Litecoin netwerk maar niet in je Bread.</string>
+    <string name="ReScan.body3">Je kreeg herhaaldelijk een foutmelding die zei dat je transactie werd afgewezen.</string>
+    <string name="ReScan.buttonTitle">Start Synchronisatie</string>
+    <string name="ReScan.footer">Je zult niet in staat zijn om geld te versturen wanneer je aan het synchroniseren bent met de blokketen.</string>
+    <string name="ReScan.header">Synchroniseer Blockchain</string>
+    <string name="ReScan.subheader1">Geschatte tijd</string>
+    <string name="ReScan.subheader2">Wanneer Synchroniseren?</string>
+    <string name="Receive.copied">Gekopieerd naar plakbord.</string>
+    <string name="Receive.emailButton">E-mail</string>
+    <string name="Receive.request">Een bedrag aanvragen</string>
+    <string name="Receive.share">Delen</string>
+    <string name="Receive.textButton">Bericht</string>
+    <string name="Receive.title">Ontvangen</string>
+    <string name="RecoverWallet.done">Voltooid</string>
+    <string name="RecoverWallet.header">Portemonnee Herstellen</string>
+    <string name="RecoverWallet.header_reset_pin">PIN Resetten</string>
+    <string name="RecoverWallet.instruction">Papieren Sleutel Invoeren</string>
+    <string name="RecoverWallet.intro">Herstel je Bread met je papieren sleutel.</string>
+    <string name="RecoverWallet.invalid">De papieren sleutel die je hebt ingevoerd is ongeldig. Check ieder woord a.u.b. en probeer het opnieuw.</string>
+    <string name="RecoverWallet.leftArrow">Linker Pijl</string>
+    <string name="RecoverWallet.next">Volgende</string>
+    <string name="RecoverWallet.reset_pin_more_info">Tik hier voor meer informatie.</string>
+    <string name="RecoverWallet.rightArrow">Rechter Pijl</string>
+    <string name="RecoverWallet.subheader">Voer de papieren sleutel in voor de portemonnee die je wilt herstellen.</string>
+    <string name="RecoverWallet.subheader_reset_pin">Om je PIN te resetten moet je de woorden van je papieren sleutel in onderstaande velden invoeren.</string>
+    <string name="RequestAnAmount.noAmount">Vul alstublieft eerst een bedrag in.</string>
+    <string name="RequestAnAmount.title">Een bedrag aanvragen</string>
+    <string name="Scanner.flashButtonLabel">Camera Flits</string>
+    <string name="Search.complete">complete</string>
+    <string name="Search.pending">in afwachting van</string>
+    <string name="Search.received">ontvangen</string>
+    <string name="Search.sent">verstuurd</string>
+    <string name="SecurityCenter.info">Activeer alle veiligheidsmaatregelen voor maximale bescherming.</string>
+    <string name="SecurityCenter.paperKeyDescription">De enige manier om toegang te hebben tot je Litecoins is als je je telefoon verliest of upgrade.</string>
+    <string name="SecurityCenter.paperKeyTitle">Papieren Sleutel</string>
+    <string name="SecurityCenter.pinDescription">Beschermt je Bread van ongeautoriseerde gebruikers.</string>
+    <string name="SecurityCenter.pinTitle">6-cijferige PIN</string>
+    <string name="SecurityCenter.title">Veiligheidscentrum</string>
+    <string name="SecurityCenter.touchIdDescription">Ontgrendel je Bread handig en stuur geld tot een bepaalde ingestelde limiet.</string>
+    <string name="SecurityCenter.touchIdTitle">Touch ID</string>
+    <string name="Send.UsedAddress.firstLine">Litecoin adressen zijn alleen bedoeld voor enkel gebruik.</string>
+    <string name="Send.UsedAddress.secondLIne">Hergebruikt vermindert privacy voor zowel jou en de ontvanger en kan resulteren in verlies als de ontvanger niet direct het adres beheert.</string>
+    <string name="Send.UsedAddress.title">Adres Al Gebruikt</string>
+    <string name="Send.amountLabel">Bedrag</string>
+    <string name="Send.balance">Balans: %1$s</string>
+    <string name="Send.cameraUnavailableTitle">Bread heeft geen toestemming voor het gebruik van de camera</string>
+    <string name="Send.cameraunavailableMessage">Ga naar Instellingen om camera gebruik toe te staan.</string>
+    <string name="Send.containsAddress">De bestemming is je eigen adres. Je kunt het niet naar jezelf sturen.</string>
+    <string name="Send.creatTransactionError">Kon de transactie niet creëren.</string>
+    <string name="Send.descriptionLabel">Memo</string>
+    <string name="Send.emptyPasteboard">Plakbord is leeg</string>
+    <string name="Send.fee">Netwerkkosten: %1$s</string>
+    <string name="Send.identityNotCertified">Begunstigde is niet gecertifcieerd.</string>
+    <string name="Send.invalidAddressMessage">Het bestemmingsadres is geen geldig bitcoin-adres.</string>
+    <string name="Send.invalidAddressOnPasteboard">Plakbord bevat geen geldig bitcoin adres.</string>
+    <string name="Send.invalidAddressTitle">Ongeldig Adres</string>
+    <string name="Send.isRescanning">Zenden is uitgeschakeld tijdens volledig opnieuw scannen</string>
+    <string name="Send.loadingRequest">Verzoek aan het laden</string>
+    <string name="Send.noAddress">Voer a.u.b. het adres van de begunstigde in.</string>
+    <string name="Send.noAmount">Voer a.u.b. een bedrag in om te versturen.</string>
+    <string name="Send.pasteLabel">Plakken</string>
+    <string name="Send.publishTransactionError">Kon de transactie niet publiceren.</string>
+    <string name="Send.remoteRequestError">Kon de betalingsaanvraag niet laden</string>
+    <string name="Send.scanLabel">Scannen</string>
+    <string name="Send.sendLabel">Versturen</string>
+    <string name="Send.title">Versturen</string>
+    <string name="Send.toLabel">Naar</string>
+    <string name="Settings.about">Over</string>
+    <string name="Settings.advancedTitle">Geavanceerde instellingen</string>
+    <string name="Settings.currency">Toon valuta</string>
+    <string name="Settings.earlyAccess">Doe Mee aan Early Access</string>
+    <string name="Settings.enjoying">Vind je Bread leuk?</string>
+    <string name="Settings.importTitle">Importeer Portemonnee</string>
+    <string name="Settings.manage">Beheer</string>
+    <string name="Settings.notifications">Notificaties</string>
+    <string name="Settings.review">Laat een review achter</string>
+    <string name="Settings.shareData">Deel Anonieme Data</string>
+    <string name="Settings.sync">Synchroniseer Blockchain</string>
+    <string name="Settings.title">Instellingen</string>
+    <string name="Settings.touchIdLimit">Touch ID Bestedingslimiet</string>
+    <string name="Settings.wallet">Portemonnee</string>
+    <string name="Settings.wipe">Begin of herstel een andere portomonnee</string>
+    <string name="ShareData.body">Help om Bread te verbeteren door je anonieme data met ons te delen. Dit bevat geen financiële informatie. We respecteren je financiële privacy.</string>
+    <string name="ShareData.header">Data Delen?</string>
+    <string name="ShareData.toggleLabel">Anonieme Data Delen?</string>
+    <string name="StartPaperPhrase.againButtonTitle">Schrijf Papieren Sleutel Opnieuw Op</string>
+    <string name="StartPaperPhrase.body">Je papieren sleutel is de enige manier om je Bread te herstellen als je telefoon verloren, gestolen, kapot of geüpgrade is.\n\nWe zullen je een lijst met woorden laten zie die je op een papiertje moet schrijven en veilig moet bewaren.</string>
+    <string name="StartPaperPhrase.buttonTitle">Schrijf Papieren Sleutel Op</string>
+    <string name="StartPaperPhrase.date">Je hebt voor het laatst je papieren sleutel opgeschreven op %1$s</string>
+    <string name="StartViewController.message">De veiligste en betrouwbaarste manier om bitcoin te gebruiken.</string>
+    <string name="SyncingView.connecting">Aan het verbinden</string>
+    <string name="SyncingView.header">Synchroniseren</string>
+    <string name="SyncingView.retry">Opnieuw proberen</string>
+    <string name="SyncingView.syncing">Aan het synchroniseren</string>
+    <string name="TimeSince.days">%1$s d</string>
+    <string name="TimeSince.hours">%1$s h</string>
+    <string name="TimeSince.minutes">%1$s m</string>
+    <string name="TimeSince.seconds">%1$s s</string>
+    <string name="TouchIdSettings.customizeText">Je kunt je Touch-ID uitgavenlimiet aanpassen van de %1$s.</string>
+    <string name="TouchIdSettings.label">Gebruik je vingerafdruk om je Bread te ontgrendelen en geld tot een ingestelde limiet te versturen.</string>
+    <string name="TouchIdSettings.linkText">Touch-ID uitgavenlimietscherm</string>
+    <string name="TouchIdSettings.spendingLimit">Bestedingslimiet: %1$s (%2$s)</string>
+    <string name="TouchIdSettings.switchLabel">Schakel Touch ID in voor Bread</string>
+    <string name="TouchIdSettings.title">Touch ID</string>
+    <string name="TouchIdSettings.unavailableAlertMessage">Je hebt je Touch ID niet ingesteld op dit apparaat. Ga naar Instellingen -> Touch ID &amp; Wachtwoord om het nu in te stellen.</string>
+    <string name="TouchIdSettings.unavailableAlertTitle">Touch ID Niet Ingesteld</string>
+    <string name="TouchIdSpendingLimit">Vraag altijd naar wachtwoord</string>
+    <string name="TouchIdSpendingLimit.body">Je zal gevraagd worden om je 6-cijferige PIN in te voeren om elke transactie boven je bestedingslimiet te versturen, en elke 48 uur sinds de laatste keer dat je je 6-cijferige PIN hebt ingevoerd.</string>
+    <string name="TouchIdSpendingLimit.title">Touch ID Bestedingslimiet</string>
+    <string name="Transaction.available">Beschikbaar om te besteden</string>
+    <string name="Transaction.complete">Compleet</string>
+    <string name="Transaction.ending">Eindbalans: %1$s</string>
+    <string name="Transaction.exchangeOnDayReceived">Wisselkoers bij ontvangst:</string>
+    <string name="Transaction.exchangeOnDaySent">Wisselkoers bij verzending:</string>
+    <string name="Transaction.fee">(%1$s fee)</string>
+    <string name="Transaction.invalid">ONGELDIG</string>
+    <string name="Transaction.justNow">zojuist</string>
+    <string name="Transaction.receivedStatus">In uitvoering: %1$s</string>
+    <string name="Transaction.sendingStatus">In uitvoering: %1$s</string>
+    <string name="Transaction.starting">Startbalans: %1$s</string>
+    <string name="Transaction.waiting">Wachtend op bevestiging. Sommige handelaren willen bevestiging om een transactie af te roden. Geschatte tijd: 1-2 uur.</string>
+    <string name="TransactionDetails.account">account</string>
+    <string name="TransactionDetails.amountHeader">Bedrag</string>
+    <string name="TransactionDetails.blockHeightLabel">Bevestigd in blok</string>
+    <string name="TransactionDetails.commentsHeader">Memo</string>
+    <string name="TransactionDetails.emptyMessage">Je transacties zullen hier verschijnen.</string>
+    <string name="TransactionDetails.from">op %1$s</string>
+    <string name="TransactionDetails.more">Meer...</string>
+    <string name="TransactionDetails.moved">%1$s verplaatst</string>
+    <string name="TransactionDetails.movedAmountDescription"><b>%1@</b> verplaatst</string>
+    <string name="TransactionDetails.notConfirmedBlockHeightLabel">Niet bevestigd</string>
+    <string name="TransactionDetails.received">Ontvangen %1$s</string>
+    <string name="TransactionDetails.receivedAmountDescription">Ontvangen <b>%1@</b></string>
+    <string name="TransactionDetails.sent">Verstuurd %1$s</string>
+    <string name="TransactionDetails.sentAmountDescription">Verstuurd <b>%1@</b></string>
+    <string name="TransactionDetails.statusHeader">Status</string>
+    <string name="TransactionDetails.title">Transactie Details</string>
+    <string name="TransactionDetails.to">aan %1$s</string>
+    <string name="TransactionDetails.txHashHeader">Litecoin Transactie-ID</string>
+    <string name="TransactionDirection.address">Ontvangen op dit adres</string>
+    <string name="TransactionDirection.to">Verstuurd naar dit adres</string>
+    <string name="URLHandling.addressList">Autoriseer om portemonnee adres naar plakbord te kopiëren</string>
+    <string name="URLHandling.addressListAlertTitle">Kopieer Portemonnee Adressen</string>
+    <string name="URLHandling.addressaddressListAlertMessage">Portemonnee adressen naar plakbord kopiëren?</string>
+    <string name="URLHandling.copy">Kopiëren</string>
+    <string name="UnlockScreen.disabled">Uitgeschakeld tot: %1$s</string>
+    <string name="UnlockScreen.myAddress">Mijn Adres</string>
+    <string name="UnlockScreen.resetPin">PIN Resetten</string>
+    <string name="UnlockScreen.scan">Scannen</string>
+    <string name="UnlockScreen.subheader">PIN Invoeren</string>
+    <string name="UnlockScreen.touchIdPrompt">Ontgrendel je Bread.</string>
+    <string name="UnlockScreen.touchIdText">Ontgrendel met Touch ID</string>
+    <string name="UnlockScreen.unlocked">Portemonnee Ontgrendeld</string>
+    <string name="UpdatePin.caption">Onthoud deze PIN. Als je deze vergeet, zul je niet in staat zijn om bij je Litecoins te kunnen.</string>
+    <string name="UpdatePin.createInstruction">Je PIN zal worden gebruikt om je Bread te ontgrendelen en geld te versturen.</string>
+    <string name="UpdatePin.createTitle">PIN Instellen</string>
+    <string name="UpdatePin.createTitleConfirm">Voer PIN opnieuw in</string>
+    <string name="UpdatePin.enterCurrent">Voer je huidige PIN in.</string>
+    <string name="UpdatePin.enterNew">Voer je nieuwe PIN in.</string>
+    <string name="UpdatePin.reEnterNew">Voer je nieuwe PIN opnieuw in.</string>
+    <string name="UpdatePin.setPinError">Sorry, we konden je PIN niet updaten.</string>
+    <string name="UpdatePin.setPinErrorTitle">Update PIN Error</string>
+    <string name="UpdatePin.updateTitle">Update PIN</string>
+    <string name="VerifyPin.authorize">Voer alstublieft uw PIN in om deze transactie te autoriseren.</string>
+    <string name="VerifyPin.continueBody">Voer a.u.b. je PIN in om verder te gaan.</string>
+    <string name="VerifyPin.title">PIN Vereist</string>
+    <string name="VerifyPin.touchIdMessage">Autoriseer deze transactie</string>
+    <string name="Watch.noWalletWarning">Open de Bread iPhone app om je portemonnee in te stellen.</string>
+    <string name="Webview.dismiss">Verwerpen</string>
+    <string name="Webview.errorMessage">Er was een error bij het laden van de inhoud. Probeer a.u.b. opnieuw.</string>
+    <string name="Webview.updating">Updaten...</string>
+    <string name="Welcome.body">Breadwallet is omgedoopt tot Bread, met een gloednieuw uiterlijk en enkele nieuwe functies.\n\nAls u hulp nodig hebt, zoek naar de (?) rechtsboven in de meeste schermen.</string>
+    <string name="Welcome.title">Welkom bij Brood!</string>
+    <string name="WipeWallet.alertMessage">Weet je zeker dat je deze portomonnee wilt verwijderen?</string>
+    <string name="WipeWallet.alertTitle">Portomonnee wissen?</string>
+    <string name="WipeWallet.failedMessage">Wissen van portomonnee niet gelukt</string>
+    <string name="WipeWallet.failedTitle">Mislukt</string>
+    <string name="WipeWallet.instruction">Voer de herstelzin van deze portomonnee in om hem te wissen of een anderen te herstellen. Je huidige saldo zal op deze zin blijven.</string>
+    <string name="WipeWallet.startMessage">Een andere portemonnee beginnen of herstellen zal u toestaan om nog een Bread portemonnee op dit apparaat te gebruiken.</string>
+    <string name="WipeWallet.startWaring">U zal niet langer uw huidige Bread portemonnee kunnen bereiken vanaf dit apparaat. Uw saldo zal hetzelfde blijven.</string>
+    <string name="WipeWallet.title">Start of herstel een anderen portomonnee</string>
+    <string name="WipeWallet.wipe">Wissen</string>
+    <string name="WipeWallet.wiping">Aan het wissen...</string>
+    <string name="WritePaperPhrase.instruction">Schrijf elk woord in de juiste volgorde op en bewaar het op een veilige plek.</string>
+    <string name="WritePaperPhrase.next">Volgende</string>
+    <string name="WritePaperPhrase.previous">Vorige</string>
+    <string name="WritePaperPhrase.step">%1$d van %2$d</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navigeren naar startpositie"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Omhoog navigeren"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Meer opties"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Gereed"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alles weergeven"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Een app selecteren"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"UIT"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"AAN"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Zoeken…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Zoekopdracht wissen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Zoekopdracht"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Zoeken"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Zoekopdracht verzenden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Gesproken zoekopdracht"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Delen met"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Delen met %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Samenvouwen"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Inschakelen"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> werkt niet, tenzij je Google Play-services inschakelt."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play-services inschakelen"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installeren"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd zonder Google Play-services, die je nog niet op je apparaat hebt."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play-services ophalen"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fout met Google Play-services"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> ondervindt problemen met Google Play-services. Probeer het opnieuw."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd zonder Google Play-services, die niet worden ondersteund op je apparaat."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Updaten"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd, tenzij je Google Play-services updatet."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play-services updaten"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan niet worden uitgevoerd zonder Google Play-services, die momenteel worden geüpdatet."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Er is een nieuwe versie van Google Play-services vereist. De update wordt binnenkort automatisch uitgevoerd."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Openen op telefoon"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Inloggen"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Inloggen met Google"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Zoeken"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

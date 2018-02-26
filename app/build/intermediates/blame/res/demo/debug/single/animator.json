@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/animator/to_right.xml",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/animator/to_right.xml"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/animator/from_bottom.xml",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/animator/from_bottom.xml"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/animator/to_bottom.xml",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/animator/to_bottom.xml"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/animator/plain_300.xml",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/animator/plain_300.xml"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/animator/to_top.xml",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/animator/to_top.xml"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/animator/from_top.xml",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/animator/from_top.xml"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/animator/from_left.xml",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/animator/from_left.xml"
+    }
+]

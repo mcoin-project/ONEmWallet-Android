@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/received_label.9.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/received_label.9.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_share_vertical_blue.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_share_vertical_blue.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/buy_bitcoin.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/buy_bitcoin.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/unconfirmed_label.9.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/unconfirmed_label.9.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/faq_question_black.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/faq_question_black.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_settings.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_settings.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/sent_label.9.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/sent_label.9.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_arrow_head.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_arrow_head.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_wallet_locked.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_wallet_locked.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/restore_image.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/restore_image.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_black_wallet.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_black_wallet.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/faq_question_white.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/faq_question_white.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_menu.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_menu.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/caret_right.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/caret_right.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_receive.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_receive.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_send.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_send.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_lock.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_lock.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_shield_white.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_shield_white.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/import_symbol.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/import_symbol.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_fp_40px.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_fp_40px.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/shadow.9.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/shadow.9.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_share.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_share.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_question_mark.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_question_mark.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_white_wallet.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_white_wallet.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/fingerprint_icon.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/fingerprint_icon.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_arrow_body.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_arrow_body.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_shield.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_shield.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/icon_delete_cirlce_grey.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/icon_delete_cirlce_grey.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/broken_cloud.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/broken_cloud.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_unlocked.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_unlocked.png"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/drawable-xxhdpi/ic_share_vertical_gray.png",
+        "source": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/res/drawable-xxhdpi/ic_share_vertical_gray.png"
+    }
+]

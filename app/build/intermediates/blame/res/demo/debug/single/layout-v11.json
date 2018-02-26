@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/home/mihait/.android/build-cache/7e65689169cebed87624c9070d8e4fb510950783/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/mihait/.android/build-cache/7e65689169cebed87624c9070d8e4fb510950783/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/layout-v11/notification_media_action.xml",
+        "source": "/home/mihait/.android/build-cache/7e65689169cebed87624c9070d8e4fb510950783/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/home/mihait/.android/build-cache/7e65689169cebed87624c9070d8e4fb510950783/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/home/mihait/.android/build-cache/7e65689169cebed87624c9070d8e4fb510950783/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/intermediates/res/merged/demo/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/home/mihait/.android/build-cache/7e65689169cebed87624c9070d8e4fb510950783/output/res/layout-v11/notification_media_cancel_action.xml"
+    }
+]

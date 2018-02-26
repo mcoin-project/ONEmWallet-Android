@@ -1,0 +1,656 @@
+See file:///home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/tmp/compileCoreX86_64DebugDemoSharedLibraryCoreX86_64DebugDemoSharedLibraryMainC/output.txt for all output for compileCoreX86_64DebugDemoSharedLibraryCoreX86_64DebugDemoSharedLibraryMainC.
+compiling BRBIP39Mnemonic.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP39Mnemonic.c:26:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP39Mnemonic.c:56:5: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+    var_clean(&word);
+    ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP39Mnemonic.c:57:5: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+    var_clean(&x);
+    ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP39Mnemonic.c:107:5: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+    var_clean(&b);
+    ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+5 warnings generated.
+
+compiling BRSet.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+1 warning generated.
+
+compiling BRBIP38Key.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP38Key.c:26:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:28:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP38Key.c:26:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP38Key.c:193:5: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+    var_clean(&len);
+    ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP38Key.c:194:5: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+    var_clean(&prefactor);
+    ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP38Key.c:260:9: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+        var_clean(&derived);
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP38Key.c:282:9: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+        var_clean(&passpoint);
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP38Key.c:284:9: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+        var_clean(&derived);
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP38Key.c:307:5: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+    var_clean(&secret);
+    ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP38Key.c:369:5: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+    var_clean(&derived);
+    ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+10 warnings generated.
+
+compiling BRTransaction.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRTransaction.c:27:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:28:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRTransaction.c:27:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+3 warnings generated.
+
+compiling BRBloomFilter.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBloomFilter.c:26:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBloomFilter.c:27:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+3 warnings generated.
+
+compiling BRBIP32Sequence.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP32Sequence.c:26:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP32Sequence.c:70:5: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+    var_clean(&I);
+    ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP32Sequence.c:102:9: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+        var_clean(&I);
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP32Sequence.c:121:9: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+        var_clean(&I);
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP32Sequence.c:151:9: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+        var_clean(&chainCode);
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP32Sequence.c:178:9: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+        var_clean(&I);
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBIP32Sequence.c:220:9: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+        var_clean(&I);
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+8 warnings generated.
+
+compiling BRMerkleBlock.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRMerkleBlock.c:26:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRMerkleBlock.c:27:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRMerkleBlock.c:369:12: warning: 'return' will never be executed [-Wunreachable-code-return]
+    return r;
+           ^
+4 warnings generated.
+
+compiling BRWallet.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRWallet.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRWallet.h:29:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:28:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRWallet.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRWallet.h:29:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+3 warnings generated.
+
+compiling BRKey.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRKey.c:26:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:28:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRKey.c:26:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRKey.c:351:5: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+    var_clean(key);
+    ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+4 warnings generated.
+
+compiling BRPaymentProtocol.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPaymentProtocol.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPaymentProtocol.h:29:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:28:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPaymentProtocol.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPaymentProtocol.h:29:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+3 warnings generated.
+
+compiling BRPeer.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.h:30:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:28:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.h:30:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.c:548:29: warning: implicitly declaring library function 'sprintf' with type 'int (char *, const char *, ...)' [-Wimplicit-function-declaration]
+                            sprintf(&txHex[j*2], "%02x", buf[j]);
+                            ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.c:548:29: note: include the header <stdio.h> or explicitly provide a declaration for 'sprintf'
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.c:807:56: warning: format specifies type 'unsigned long long' but the argument has type 'uint64_t' (aka 'unsigned long') [-Wformat]
+        peer_log(peer, "got feefilter with rate %llu", ctx->feePerKb);
+                                                ~~~~   ^~~~~~~~~~~~~
+                                                %lu
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.h:36:62: note: expanded from macro 'peer_log'
+                                      (peer)->port, _va_rest(__VA_ARGS__, NULL))
+                                                             ^~~~~~~~~~~
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.h:38:30: note: expanded from macro '_va_rest'
+#define _va_rest(first, ...) __VA_ARGS__
+                             ^~~~~~~~~~~
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.h:45:71: note: expanded from macro '_peer_log'
+#define _peer_log(...) __android_log_print(ANDROID_LOG_INFO, "bread", __VA_ARGS__)
+                                                                      ^~~~~~~~~~~
+5 warnings generated.
+
+compiling BRBase58.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBase58.c:27:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBase58.c:58:9: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+        var_clean(&carry);
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRBase58.c:130:9: warning: must specify at least one argument for '...' parameter of variadic macro [-Wgnu-zero-variadic-macro-arguments]
+        var_clean(&carry);
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:99:65: note: expanded from macro 'var_clean'
+#define var_clean(...) _var_clean(sizeof(*(_va_first(__VA_ARGS__))), __VA_ARGS__, NULL)
+                                                                ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:100:9: note: macro '_va_first' defined here
+#define _va_first(first, ...) first
+        ^
+4 warnings generated.
+
+compiling test.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/test.c:25:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/test.c:28:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRWallet.h:29:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+3 warnings generated.
+
+compiling BRAddress.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:28:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.c:25:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+3 warnings generated.
+
+compiling JNIBase58.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+1 warning generated.
+
+compiling BRCrypto.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.c:25:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+2 warnings generated.
+
+compiling PeerManager.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/PeerManager.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/PeerManager.h:27:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeerManager.h:28:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.h:30:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:28:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/PeerManager.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/PeerManager.h:27:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeerManager.h:28:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.h:30:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/PeerManager.c:32:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.h:230:30: warning: no newline at end of file [-Wnewline-eof]
+#endif //BREADWALLET_WALLET_H
+                             ^
+4 warnings generated.
+
+compiling JNIKey.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/JNIKey.c:9:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/JNIKey.c:10:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/JNIKey.c:68:11: warning: unused variable 'nonceSize' [-Wunused-variable]
+    jsize nonceSize = (*env)->GetArrayLength(env, nonce);
+          ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/JNIKey.c:90:11: warning: unused variable 'nonceSize' [-Wunused-variable]
+    jsize nonceSize = (*env)->GetArrayLength(env, nonce);
+          ^
+5 warnings generated.
+
+compiling core.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/core.c:27:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.h:26:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRWallet.h:29:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:28:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/core.c:27:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.h:26:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRWallet.h:29:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/core.c:27:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.h:230:30: warning: no newline at end of file [-Wnewline-eof]
+#endif //BREADWALLET_WALLET_H
+                             ^
+4 warnings generated.
+
+compiling BRPeerManager.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeerManager.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeerManager.h:28:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.h:30:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:28:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeerManager.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeerManager.h:28:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.h:30:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeerManager.c:1452:94: warning: format specifies type 'unsigned long long' but the argument has type 'unsigned long' [-Wformat]
+        peer_log(peer, "increasing feePerKb to %llu based on feefilter messages from peers", secondFeePerKb*3/2);
+                                               ~~~~                                          ^~~~~~~~~~~~~~~~~~
+                                               %lu
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.h:36:62: note: expanded from macro 'peer_log'
+                                      (peer)->port, _va_rest(__VA_ARGS__, NULL))
+                                                             ^~~~~~~~~~~
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.h:38:30: note: expanded from macro '_va_rest'
+#define _va_rest(first, ...) __VA_ARGS__
+                             ^~~~~~~~~~~
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRPeer.h:45:71: note: expanded from macro '_peer_log'
+#define _peer_log(...) __android_log_print(ANDROID_LOG_INFO, "bread", __VA_ARGS__)
+                                                                      ^~~~~~~~~~~
+4 warnings generated.
+
+compiling JNIBIP32Sequence.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/JNIBIP32Sequence.c:25:2: warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+2 warnings generated.
+
+compiling wallet.c successful.
+In file included from <built-in>:326:
+<command line>:6:9: warning: 'BITCOIN_TESTNET' macro redefined [-Wmacro-redefined]
+#define BITCOIN_TESTNET 1
+        ^
+<command line>:5:9: note: previous definition is here
+#define BITCOIN_TESTNET 0
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.h:26:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRWallet.h:29:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:28:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: warning: implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned long)' [-Wimplicit-function-declaration]
+    void *(*volatile const memset_ptr)(void *, int, size_t) = memset;
+                                                              ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRCrypto.h:95:63: note: include the header <string.h> or explicitly provide a declaration for 'memset'
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.c:25:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.h:26:
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRWallet.h:29:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRAddress.h:38:9: warning: testnet build [-W#pragma-messages]
+#pragma message "testnet build"
+        ^
+In file included from /home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.c:25:
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.h:230:30: warning: no newline at end of file [-Wnewline-eof]
+#endif //BREADWALLET_WALLET_H
+                             ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.c:840:30: warning: incompatible pointer to integer conversion passing 'BRKey *' to parameter of type 'int' [-Wint-conversion]
+    BRTransactionSign(tmpTx, &key, 1, 0);
+                             ^~~~
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRTransaction.h:132:46: note: passing argument to parameter 'forkId' here
+int BRTransactionSign(BRTransaction *tx, int forkId, BRKey keys[], size_t keysCount);
+                                             ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.c:840:36: warning: incompatible integer to pointer conversion passing 'int' to parameter of type 'BRKey *' [-Wint-conversion]
+    BRTransactionSign(tmpTx, &key, 1, 0);
+                                   ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/loafwallet-core/BRTransaction.h:132:60: note: passing argument to parameter 'keys' here
+int BRTransactionSign(BRTransaction *tx, int forkId, BRKey keys[], size_t keysCount);
+                                                           ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.c:844:12: warning: unused variable 'len' [-Wunused-variable]
+    size_t len = BRTransactionSerialize(tmpTx, buf, sizeof(buf));
+           ^
+/home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/src/main/jni/transition/wallet.c:875:11: warning: initializing 'char *' with an expression of type 'const char [65]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+    char *result = u256_hex_encode(sha256Hash);
+          ^        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+8 warnings generated.
+
+Finished compileCoreX86_64DebugDemoSharedLibraryCoreX86_64DebugDemoSharedLibraryMainC, see full log file:///home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/tmp/compileCoreX86_64DebugDemoSharedLibraryCoreX86_64DebugDemoSharedLibraryMainC/output.txt.

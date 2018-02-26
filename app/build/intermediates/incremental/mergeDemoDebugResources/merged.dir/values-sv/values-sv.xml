@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="About.blog">Blogg</string>
+    <string name="About.footer">Skapad av det lokala teamet för Bread. Version %1$s.</string>
+    <string name="About.privacy">Sekretesspolicy</string>
+    <string name="About.reddit">Reddit</string>
+    <string name="About.terms">Användarvillkor</string>
+    <string name="About.title">Om</string>
+    <string name="About.twitter">Twitter</string>
+    <string name="AccessibilityLabels.close">Stäng</string>
+    <string name="AccessibilityLabels.faq">Support Center</string>
+    <string name="Account.loadingMessage">Laddar plånbok</string>
+    <string name="AccountHeader.defaultWalletName">Mitt Bread</string>
+    <string name="AccountHeader.equals">=</string>
+    <string name="AccountHeader.manageButtonName">HANTERA</string>
+    <string name="Alert.error">Fel</string>
+    <string name="Alert.noInternet">Ingen anslutning till internet hittades. Kontrollera din anslutning och försök igen.</string>
+    <string name="Alert.warning">Varning</string>
+    <string name="Alerts.copiedAddressesHeader">Adresser kopierade</string>
+    <string name="Alerts.copiedAddressesSubheader">Alla plånboksadresser har kopierats.</string>
+    <string name="Alerts.paperKeySet">Ordnyckel är inställd</string>
+    <string name="Alerts.paperKeySetSubheader">Härligt!</string>
+    <string name="Alerts.pinSet">PIN-kod är inställd</string>
+    <string name="Alerts.sendFailure">Sändningen misslyckades</string>
+    <string name="Alerts.sendSuccess">Skicka bekräftelse</string>
+    <string name="Alerts.sendSuccessSubheader">Pengarna skickade!</string>
+    <string name="ApiClient.jsonError">Fel vid JSON-serialisering</string>
+    <string name="ApiClient.notReady">Plånboken ej redo</string>
+    <string name="ApiClient.tokenError">Kan inte ta emot API-symbol</string>
+    <string name="BCH.body">Ange mottagarens BCH-adress nedan. Alla BCH i din plånbok vid nästa fork (%1$s) kommer skickas.</string>
+    <string name="BCH.confirmationMessage">Bekräfta skickar %1$s till %2$s</string>
+    <string name="BCH.confirmationTitle">Bekräftelse</string>
+    <string name="BCH.genericError">Ditt konto har inte några BCH, eller så tar du emot BCH först efter nästa fork.</string>
+    <string name="BCH.hashCopiedMessage">Transaktions-ID kopierat</string>
+    <string name="BCH.noAddressError">Var god ange en adress</string>
+    <string name="BCH.paymentProtocolError">Betalningsprotokollsbegäran stöds inte för BCH-transaktioner</string>
+    <string name="BCH.successMessage">BCH skickades.</string>
+    <string name="BCH.title">Ta ut BCH</string>
+    <string name="BCH.txHashHeader">BCH transaktions-ID</string>
+    <string name="BitID.approve">Godkänn</string>
+    <string name="BitID.authenticationRequest">%1$s begär autentisering med hjälp av din bitcoin-plånbok</string>
+    <string name="BitID.deny">Avslå</string>
+    <string name="BitID.error">Autentiseringsfel</string>
+    <string name="BitID.errorMessage">Var god kontrollera med tjänsten. Du kan behöva försöka igen.</string>
+    <string name="BitID.success">Autentiseringen lyckades</string>
+    <string name="BitID.title">BitId autentiseringsförfrågan</string>
+    <string name="Button.cancel">Avbryt</string>
+    <string name="Button.ignore">Ignorera</string>
+    <string name="Button.menu">meny</string>
+    <string name="Button.no">Nej</string>
+    <string name="Button.ok">OK</string>
+    <string name="Button.receive">ta emot</string>
+    <string name="Button.send">skicka</string>
+    <string name="Button.settings">Inställningar</string>
+    <string name="Button.submit">Överlämna</string>
+    <string name="Button.yes">Ja</string>
+    <string name="CameraPlugin.centerInstruction">Centrera ditt ID i boxen</string>
+    <string name="ConfirmPaperPhrase.label">Ange följande ord från din ordnyckel, för att vara säker på att allt skrevs korrekt.</string>
+    <string name="ConfirmPaperPhrase.word">Ord #%1$s</string>
+    <string name="Confirmation.amountLabel">Belopp att skicka:</string>
+    <string name="Confirmation.feeLabel">Nätverks-avgift</string>
+    <string name="Confirmation.processingTime">Bearbetningstid: Denna transaktion kommer att ta %1$s minuter att bearbeta.</string>
+    <string name="Confirmation.send">Skicka</string>
+    <string name="Confirmation.title">Bekräftelse</string>
+    <string name="Confirmation.to">Till</string>
+    <string name="Confirmation.totalLabel">Total kostnad:</string>
+    <string name="DefaultCurrency.litecoinLabel">Litecoin visningsenhet</string>
+    <string name="DefaultCurrency.rateLabel">Växelkurs</string>
+    <string name="ErrorMessages.emailUnavailableMessage">Enheten är inte konfigurerad för att skicka e-post med post-appen i iOS.</string>
+    <string name="ErrorMessages.emailUnavailableTitle">E-posten är inte tillgänglig</string>
+    <string name="ErrorMessages.messagingUnavailableMessage">Denna enhet är inte konfigurerad för att skicka meddelanden.</string>
+    <string name="ErrorMessages.messagingUnavailableTitle">Meddelandehantering inte tillgänglig</string>
+    <string name="FeeSelector.economy">Ekonomi</string>
+    <string name="FeeSelector.economyLabel">Beräknad leveranstid: 60+ minuter</string>
+    <string name="FeeSelector.economyWaring">Detta alternativ rekommenderas inte för tidskänsliga transaktioner.</string>
+    <string name="FeeSelector.regular">Vanlig</string>
+    <string name="FeeSelector.regularLabel">Beräknad leveranstid: 10-30 minuter</string>
+    <string name="FeeSelector.title">Bearbetningshastighet</string>
+    <string name="Import.Error.duplicate">Denna privata nyckel finns redan i din plånbok.</string>
+    <string name="Import.Error.empty">Denna privata nyckel är tom.</string>
+    <string name="Import.Error.highFees">Transaktionsavgifter skulle kosta mer än de medel som finns tillgängliga på denna privata nyckel.</string>
+    <string name="Import.Error.notValid">Inte någon privat nyckel</string>
+    <string name="Import.Error.signing">Fel vid signering av transaktion</string>
+    <string name="Import.SuccessBody">Importerad plånbok.</string>
+    <string name="Import.checking">Kontrollerar privat nyckelsaldo...</string>
+    <string name="Import.confirm">Skicka %1$s (%2$s) från denna privata nyckel till din plånbok? Litecoins nätverk tar en avgift på %3$s (%4$s).</string>
+    <string name="Import.importButton">Importera</string>
+    <string name="Import.importing">Importerar plånbok</string>
+    <string name="Import.leftCaption">Plånbok som ska importeras</string>
+    <string name="Import.message">Genom att importera en plånbok överförs alla pengar från din andra plånbok till Bread genom en enda transaktion.</string>
+    <string name="Import.password">Denna privata nyckel är lösenordsskyddad.</string>
+    <string name="Import.passwordPlaceholder">lösenord</string>
+    <string name="Import.rightCaption">Din Bread-plånbok</string>
+    <string name="Import.scan">Läs av privat nyckel</string>
+    <string name="Import.success">Lyckades</string>
+    <string name="Import.title">Importera plånbok</string>
+    <string name="Import.unlockingActivity">Nyckel för upplåsning</string>
+    <string name="Import.warning">Importering av en plånbok inkluderar inte transaktionshistorik eller andra uppgifter.</string>
+    <string name="Import.wrongPassword">Fel lösenord, var god försök igen.</string>
+    <string name="JailbreakWarnings.close">Stäng</string>
+    <string name="JailbreakWarnings.ignore">Ignorera</string>
+    <string name="JailbreakWarnings.messageWithBalance">ENHETENS SÄKERHET ÄR ÄVENTYRAD\nEn \"intrångs\"-app kan få tillgång till Breads nyckeldata och stjäla dina bitcoin! Töm denna plånbok direkt och återupprätta den på en säker enhet.</string>
+    <string name="JailbreakWarnings.messageWithoutBalance">ENHETENS SÄKERHET ÄR ÄVENTYRAD\nEn \"intrångs\"-app kan få tillgång till Breads nyckeldata och stjäla dina bitcoin! Använd Bread endast på en säker enhet.</string>
+    <string name="JailbreakWarnings.title">VARNING</string>
+    <string name="JailbreakWarnings.wipe">Töm</string>
+    <string name="LocationPlugin.disabled">Platstjänster är inaktiverade.</string>
+    <string name="LocationPlugin.notAuthorized">Bread har inte rätt att utnyttja platstjänster</string>
+    <string name="ManageWallet.creationDatePrefix">Du skapade din plånbok på %1$s</string>
+    <string name="ManageWallet.description">Din plånboks namn visas bara i din kontohistorik och kan inte ses av någon annan.</string>
+    <string name="ManageWallet.textFeildLabel">Plånbokens namn</string>
+    <string name="ManageWallet.title">Hantera plånbok</string>
+    <string name="MenuButton.buy">Köp Litecoin</string>
+    <string name="MenuButton.lock">Lås plånbok</string>
+    <string name="MenuButton.security">Säkerhetscenter</string>
+    <string name="MenuButton.settings">Inställningar</string>
+    <string name="MenuButton.support">Support</string>
+    <string name="MenuViewController.createButton">Ska ny plånbok</string>
+    <string name="MenuViewController.modalTitle">Meny</string>
+    <string name="MenuViewController.recoverButton">Återupprätta plånbok</string>
+    <string name="NodeSelector.automaticButton">Byt till automatiskt läge</string>
+    <string name="NodeSelector.connected">Ansluten</string>
+    <string name="NodeSelector.enterBody">Ange nodens IP-adress och port (valfritt)</string>
+    <string name="NodeSelector.enterTitle">Ange nod</string>
+    <string name="NodeSelector.manualButton">Byt till manuellt läge</string>
+    <string name="NodeSelector.nodeLabel">Nuvarande primär nod</string>
+    <string name="NodeSelector.notConnected">Inte ansluten</string>
+    <string name="NodeSelector.statusLabel">Nodens anslutningsstatus</string>
+    <string name="NodeSelector.title">Litecoin-noder</string>
+    <string name="PaymentProtocol.Errors.badPaymentRequest">Felaktig utbetalningsbegäran</string>
+    <string name="PaymentProtocol.Errors.corruptedDocument">Dokumentet är felaktigt eller utan stöd</string>
+    <string name="PaymentProtocol.Errors.missingCertificate">certifikat saknas</string>
+    <string name="PaymentProtocol.Errors.requestExpired">begäran har utgått</string>
+    <string name="PaymentProtocol.Errors.smallOutputError">Kunde inte göra utbetalning</string>
+    <string name="PaymentProtocol.Errors.smallPayment">Utbetalning av Litecoin får inte vara lägre än %1$s.</string>
+    <string name="PaymentProtocol.Errors.smallTransaction">Utbetalningstransaktioner av Litecoin får inte vara lägre än $@.</string>
+    <string name="PaymentProtocol.Errors.unsupportedSignatureType">signaturtypen saknar stöd</string>
+    <string name="PaymentProtocol.Errors.untrustedCertificate">opålitligt certifikat</string>
+    <string name="Prompts.NoPasscode.body">Ett enhets-lösenord behövs för att skydda din plånbok. Gå till inställningar och aktivera lösenord.</string>
+    <string name="Prompts.NoPasscode.title">Aktivera enhets-lösenord</string>
+    <string name="Prompts.PaperKey.body">Din pappersnyckel måste sparas ifall du skulle förlora eller byta ut din telefon. Tryck här för att fortsätta.</string>
+    <string name="Prompts.PaperKey.title">Åtgärd krävs</string>
+    <string name="Prompts.RecommendRescan.body">Din plånbok kan vara osynkroniserad. Detta kan ofta lösas genom att läsa om blockkedjan.</string>
+    <string name="Prompts.RecommendRescan.title">Transaktionen avslogs</string>
+    <string name="Prompts.ShareData.body">Hjälp till att förbättra Bread genom att dela dina anonyma data med oss</string>
+    <string name="Prompts.ShareData.title">Dela anonyma data</string>
+    <string name="Prompts.TouchId.body">Klicka här för att aktivera Touch ID</string>
+    <string name="Prompts.TouchId.title">Aktivera Touch ID</string>
+    <string name="Prompts.UpgradePin.body">Bread har uppgraderat till att använda 6-siffrig PIN-kod. Klicka här för att uppgradera.</string>
+    <string name="Prompts.UpgradePin.title">Uppgradera PIN-kod</string>
+    <string name="PushNotifications.body">Slå på aviseringar för att få särskilda meddelanden från Bread i framtiden.</string>
+    <string name="PushNotifications.label">Push-meddelanden</string>
+    <string name="PushNotifications.off">Av</string>
+    <string name="PushNotifications.on">På</string>
+    <string name="PushNotifications.title">Meddelanden</string>
+    <string name="ReScan.alertAction">Synka</string>
+    <string name="ReScan.alertMessage">Du kan inte skicka pengar under synkning.</string>
+    <string name="ReScan.alertTitle">Synka med blockkedja?</string>
+    <string name="ReScan.body1">20-45 minuter</string>
+    <string name="ReScan.body2">Om en transaktion visar sig som klar i bitcoins nätverk men inte i Bread.</string>
+    <string name="ReScan.body3">Du får gång på gång ett meddelande som säger att din transaktion avvisades.</string>
+    <string name="ReScan.buttonTitle">Starta synkning</string>
+    <string name="ReScan.footer">Du kan inte skicka pengar under synkningen med blockkedjan.</string>
+    <string name="ReScan.header">Synka blockkedja</string>
+    <string name="ReScan.subheader1">Uppskattad tid</string>
+    <string name="ReScan.subheader2">När ska man synka?</string>
+    <string name="Receive.copied">Kopierad till urklipp.</string>
+    <string name="Receive.emailButton">E-post</string>
+    <string name="Receive.request">Begär ett belopp</string>
+    <string name="Receive.share">Dela</string>
+    <string name="Receive.textButton">Textmeddelande</string>
+    <string name="Receive.title">Ta emot</string>
+    <string name="RecoverWallet.done">Klar</string>
+    <string name="RecoverWallet.header">Återupprätta plånbok</string>
+    <string name="RecoverWallet.header_reset_pin">Återställ PIN-kod</string>
+    <string name="RecoverWallet.instruction">Ange ordnyckel</string>
+    <string name="RecoverWallet.intro">Återupprätta Bread med din ordnyckel.</string>
+    <string name="RecoverWallet.invalid">Den ordnyckel du angav är ogiltig. Dubbelkolla varje ord och försök igen.</string>
+    <string name="RecoverWallet.leftArrow">Vänster pil</string>
+    <string name="RecoverWallet.next">Nästa</string>
+    <string name="RecoverWallet.reset_pin_more_info">Klicka här för fler uppgifter.</string>
+    <string name="RecoverWallet.rightArrow">Höger pil</string>
+    <string name="RecoverWallet.subheader">Ange ordnyckel till den plånbok du vill återupprätta.</string>
+    <string name="RecoverWallet.subheader_reset_pin">För att återställa din PIN-kod anger du orden från din ordnyckel i boxarna nedan.</string>
+    <string name="RequestAnAmount.noAmount">Var god ange ett belopp först.</string>
+    <string name="RequestAnAmount.title">Begär ett belopp</string>
+    <string name="Scanner.flashButtonLabel">Kamerablixt</string>
+    <string name="Search.complete">avsluta</string>
+    <string name="Search.pending">väntar</string>
+    <string name="Search.received">mottaget</string>
+    <string name="Search.sent">skickat</string>
+    <string name="SecurityCenter.info">Aktivera alla säkerhetsfunktioner för maximal säkerhet.</string>
+    <string name="SecurityCenter.paperKeyDescription">Det enda sättet att komma åt dina bitcoin om du förlorar eller uppgraderar din telefon.</string>
+    <string name="SecurityCenter.paperKeyTitle">Ordnyckel</string>
+    <string name="SecurityCenter.pinDescription">Skyddar ditt Bread från obehöriga användare.</string>
+    <string name="SecurityCenter.pinTitle">6-siffrig PIN-kod</string>
+    <string name="SecurityCenter.title">Säkerhetscenter</string>
+    <string name="SecurityCenter.touchIdDescription">Lås enkelt upp ditt Bread och skicka pengar upp till en inställd gräns.</string>
+    <string name="SecurityCenter.touchIdTitle">Touch ID</string>
+    <string name="Send.UsedAddress.firstLine">Litecoin-adresser är avsedda för engångsanvändning.</string>
+    <string name="Send.UsedAddress.secondLIne">Återanvändning minskar sekretessen både för dig och mottagaren och kan sluta i förlust om mottagaren inte direkt kontrollerar adressen.</string>
+    <string name="Send.UsedAddress.title">Adressen är redan använd</string>
+    <string name="Send.amountLabel">Belopp</string>
+    <string name="Send.balance">Saldo: %1$s</string>
+    <string name="Send.cameraUnavailableTitle">Bread har inte tillgång till kameran</string>
+    <string name="Send.cameraunavailableMessage">Gå till Inställningar för att ge tillgång till kameran.</string>
+    <string name="Send.containsAddress">Destinationen är din egen adress. Du kan inte skicka till dig själv.</string>
+    <string name="Send.creatTransactionError">Kunde inte skapa transaktion.</string>
+    <string name="Send.descriptionLabel">Memo</string>
+    <string name="Send.emptyPasteboard">Urklipp är tomt</string>
+    <string name="Send.fee">Nätverksavgift: %1$s</string>
+    <string name="Send.identityNotCertified">Betalningsmottagaren är inte certifierad.</string>
+    <string name="Send.invalidAddressMessage">Mottagaradressen är inte en giltig bitcoin-adress.</string>
+    <string name="Send.invalidAddressOnPasteboard">Urklipp innehåller inte en giltig bitcoinadress.</string>
+    <string name="Send.invalidAddressTitle">Ogiltig adress</string>
+    <string name="Send.isRescanning">Skicka är avaktiverat under en full omskanning.</string>
+    <string name="Send.loadingRequest">Laddar förfrågan</string>
+    <string name="Send.noAddress">Ange mottagarens adress.</string>
+    <string name="Send.noAmount">Ange ett belopp att skicka.</string>
+    <string name="Send.pasteLabel">Klistra in</string>
+    <string name="Send.publishTransactionError">Kunde inte lägga ut transaktion.</string>
+    <string name="Send.remoteRequestError">Kunde inte ladda betalningsförfrågan</string>
+    <string name="Send.scanLabel">Läs av</string>
+    <string name="Send.sendLabel">Skicka</string>
+    <string name="Send.title">Skicka</string>
+    <string name="Send.toLabel">Till</string>
+    <string name="Settings.about">Om</string>
+    <string name="Settings.advancedTitle">Avancerade inställningar</string>
+    <string name="Settings.currency">Visa valuta</string>
+    <string name="Settings.earlyAccess">Använd Snabb tillgång</string>
+    <string name="Settings.enjoying">Gillar du Bread?</string>
+    <string name="Settings.importTitle">Importera plånbok</string>
+    <string name="Settings.manage">Hantera</string>
+    <string name="Settings.notifications">Meddelanden</string>
+    <string name="Settings.review">Betygssätt oss</string>
+    <string name="Settings.shareData">Dela anonyma uppgifter</string>
+    <string name="Settings.sync">Synka blockkedja</string>
+    <string name="Settings.title">Inställningar</string>
+    <string name="Settings.touchIdLimit">Touch ID utnyttjandegräns</string>
+    <string name="Settings.wallet">Plånbok</string>
+    <string name="Settings.wipe">Starta/Återställ en annan plånbok</string>
+    <string name="ShareData.body">Hjälp till att förbättra Bread genom att dela dina anonyma uppgifter med oss. Detta inbegriper inga ekonomiska uppgifter. Vi respekterar din ekonomiska sekretess.</string>
+    <string name="ShareData.header">Dela uppgifter?</string>
+    <string name="ShareData.toggleLabel">Dela anonyma uppgifter?</string>
+    <string name="StartPaperPhrase.againButtonTitle">Skriv ner ordnyckel på nytt</string>
+    <string name="StartPaperPhrase.body">Din ordnyckel  är enda sättet att återupprätta Bread om du förlorat din telefon, blivit bestulen på den eller har uppgraderat den.\n\nVi visar dig en lista över ord som du kan skriva ner på ett papper och gömma undan.</string>
+    <string name="StartPaperPhrase.buttonTitle">Skriv ner ordnyckel</string>
+    <string name="StartPaperPhrase.date">Senast skrev du ner din ordnyckel på %1$s</string>
+    <string name="StartViewController.message">Det säkraste och tryggaste sättet att använda bitcoin.</string>
+    <string name="SyncingView.connecting">Ansluter</string>
+    <string name="SyncingView.header">Synkar</string>
+    <string name="SyncingView.retry">Försök igen</string>
+    <string name="SyncingView.syncing">Synkroniserar</string>
+    <string name="TimeSince.days">%1$s d</string>
+    <string name="TimeSince.hours">%1$s t</string>
+    <string name="TimeSince.minutes">%1$s m</string>
+    <string name="TimeSince.seconds">%1$s s</string>
+    <string name="TouchIdSettings.customizeText">Du kan anpassa din utgiftsgräns i Touch ID från %1$s.</string>
+    <string name="TouchIdSettings.label">Använd ditt fingeravtryck för att låsa upp Bread och skicka pengar upp till en inställd gräns.</string>
+    <string name="TouchIdSettings.linkText">Sida för utgiftsgräns i Touch ID</string>
+    <string name="TouchIdSettings.spendingLimit">Utnyttjandegräns: %1$s (%2$s)</string>
+    <string name="TouchIdSettings.switchLabel">Aktivera Touch ID för Bread</string>
+    <string name="TouchIdSettings.title">Touch ID</string>
+    <string name="TouchIdSettings.unavailableAlertMessage">Du har inte ställt in Touch ID på denna enhet. Gå till Inställningar->Touch ID &amp; Lösenkod för att ställa in det nu.</string>
+    <string name="TouchIdSettings.unavailableAlertTitle">Touch ID är inte inställt</string>
+    <string name="TouchIdSpendingLimit">Kräver alltid lösenord</string>
+    <string name="TouchIdSpendingLimit.body">Du kommer att behöva ange din 6-siffriga PIN-kod för att skicka transaktioner som överskrider din utnyttjandegräns och varje gång efter 48 timmar sedan du senast angav din 6-siffriga PIN-kod.</string>
+    <string name="TouchIdSpendingLimit.title">Touch ID utnyttjandegräns</string>
+    <string name="Transaction.available">Tillgängligt att utnyttja</string>
+    <string name="Transaction.complete">Avsluta</string>
+    <string name="Transaction.ending">Utgående saldo: %1$s</string>
+    <string name="Transaction.exchangeOnDayReceived">Växlingskurs vid mottagande:</string>
+    <string name="Transaction.exchangeOnDaySent">Växlingskurs vid skickande:</string>
+    <string name="Transaction.fee">(%1$s avgift)</string>
+    <string name="Transaction.invalid">OGILTIG</string>
+    <string name="Transaction.justNow">just nu</string>
+    <string name="Transaction.receivedStatus">Pågår: %1$s</string>
+    <string name="Transaction.sendingStatus">Pågår: %1$s</string>
+    <string name="Transaction.starting">Ingående saldo: %1$s</string>
+    <string name="Transaction.waiting">Väntar på bekräftelse. Vissa handlare kräver bekräftelse för att slutföra en transaktion. Uppskattad tid: 1-2 timmar.</string>
+    <string name="TransactionDetails.account">konto</string>
+    <string name="TransactionDetails.amountHeader">Belopp</string>
+    <string name="TransactionDetails.blockHeightLabel">Bekräftad i block</string>
+    <string name="TransactionDetails.commentsHeader">Memo</string>
+    <string name="TransactionDetails.emptyMessage">Dina transaktioner visas här.</string>
+    <string name="TransactionDetails.from">på %1$s</string>
+    <string name="TransactionDetails.more">Mer...</string>
+    <string name="TransactionDetails.moved">Flyttade %1$s</string>
+    <string name="TransactionDetails.movedAmountDescription">Flyttade <b>%1@</b></string>
+    <string name="TransactionDetails.notConfirmedBlockHeightLabel">Inte bekräftad</string>
+    <string name="TransactionDetails.received">Mottog %1$s</string>
+    <string name="TransactionDetails.receivedAmountDescription">Tog emot <b>%1@</b></string>
+    <string name="TransactionDetails.sent">Skickade %1$s</string>
+    <string name="TransactionDetails.sentAmountDescription">Skickade <b>%1@</b></string>
+    <string name="TransactionDetails.statusHeader">Status</string>
+    <string name="TransactionDetails.title">Transaktionsuppgifter</string>
+    <string name="TransactionDetails.to">till %1$s</string>
+    <string name="TransactionDetails.txHashHeader">Litecoin transaktions-ID</string>
+    <string name="TransactionDirection.address">Togs emot på den här adressen</string>
+    <string name="TransactionDirection.to">Skickat till den här adressen</string>
+    <string name="URLHandling.addressList">Godkänn att kopiera plånbokens adress till urklipp</string>
+    <string name="URLHandling.addressListAlertTitle">Kopiera plånboksadresser</string>
+    <string name="URLHandling.addressaddressListAlertMessage">Kopiera plånboksadresser till urklipp?</string>
+    <string name="URLHandling.copy">Kopiera</string>
+    <string name="UnlockScreen.disabled">Inaktiverad till: %1$s</string>
+    <string name="UnlockScreen.myAddress">Min adress</string>
+    <string name="UnlockScreen.resetPin">Återställ PIN-kod</string>
+    <string name="UnlockScreen.scan">Läs av</string>
+    <string name="UnlockScreen.subheader">Ange PIN-kod</string>
+    <string name="UnlockScreen.touchIdPrompt">Lås upp Bread.</string>
+    <string name="UnlockScreen.touchIdText">Lås upp med TouchID</string>
+    <string name="UnlockScreen.unlocked">Plånbok upplåst</string>
+    <string name="UpdatePin.caption">Kom ihåg PIN-koden. Om du glömmer den, kommer du inte åt dina bitcoin.</string>
+    <string name="UpdatePin.createInstruction">Din PIN-kod används för att låsa upp ditt Bread och skicka pengar</string>
+    <string name="UpdatePin.createTitle">Ställ in PIN-kod</string>
+    <string name="UpdatePin.createTitleConfirm">Ange PIN-koden igen</string>
+    <string name="UpdatePin.enterCurrent">Ange aktuell PIN-kod.</string>
+    <string name="UpdatePin.enterNew">Ange din nya PIN-kod.</string>
+    <string name="UpdatePin.reEnterNew">Ange din nya PIN-kod igen.</string>
+    <string name="UpdatePin.setPinError">Förlåt, vi kunde inte uppdatera din PIN-kod.</string>
+    <string name="UpdatePin.setPinErrorTitle">Fel vid uppdatering av PIN-kod</string>
+    <string name="UpdatePin.updateTitle">Uppdatera PIN-kod</string>
+    <string name="VerifyPin.authorize">Var god ange din pinkod för att godkänna denna transaktion.</string>
+    <string name="VerifyPin.continueBody">Ange din PIN-kod för att fortsätta.</string>
+    <string name="VerifyPin.title">PIN-kod krävs</string>
+    <string name="VerifyPin.touchIdMessage">Godkänn denna transaktion</string>
+    <string name="Watch.noWalletWarning">Öppna iPhone-appen Bread för att ställa in din plånbok.</string>
+    <string name="Webview.dismiss">Avfärda</string>
+    <string name="Webview.errorMessage">Det blev fel vid uppladdning av innehållet. Försök igen</string>
+    <string name="Webview.updating">Uppdaterar...</string>
+    <string name="Welcome.body">Breadplånboken har bytt namn till Bread, med ett splitter nytt utseende och några nya funktioner.\n\nOm du behöver hjälp, leta efter (?)-tecknet i det övre högra hörnet på de flesta skärmar.</string>
+    <string name="Welcome.title">Välkommen till Bread!</string>
+    <string name="WipeWallet.alertMessage">Är du säker på att du vill ta bort den här plånboken.</string>
+    <string name="WipeWallet.alertTitle">Rensa plånbok?</string>
+    <string name="WipeWallet.failedMessage">Rensning av plånboken misslyckades.</string>
+    <string name="WipeWallet.failedTitle">Misslyckades</string>
+    <string name="WipeWallet.instruction">Ange den här plånbokens återställningsfras för att rensa den och starta eller återställa en annan. Ditt nuvarande saldo är kvar på den här frasen.</string>
+    <string name="WipeWallet.startMessage">Att starta eller återställa en annan plånbok ger dig tillgång till och låter dig hantera en annan Breadplånbok på denna enhet.</string>
+    <string name="WipeWallet.startWaring">Du kommer inte längre att kunna komma åt din aktuella Breadplånbok från denna enhet. Saldot kommer att kvarstå på frasen.</string>
+    <string name="WipeWallet.title">Starta eller hämta en annan plånbok</string>
+    <string name="WipeWallet.wipe">Rensa</string>
+    <string name="WipeWallet.wiping">Rensar...</string>
+    <string name="WritePaperPhrase.instruction">Skriv ner varje ord i ordning och lagra dem på ett säkert ställe.</string>
+    <string name="WritePaperPhrase.next">Nästa</string>
+    <string name="WritePaperPhrase.previous">Föregående</string>
+    <string name="WritePaperPhrase.step">%1$d av %2$d</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Visa startsidan"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Navigera uppåt"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Fler alternativ"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Klart"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visa alla"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Välj en app"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"AV"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"PÅ"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Sök …"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Ta bort frågan"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Sökfråga"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Sök"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Skicka fråga"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Röstsökning"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Dela med"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Dela med %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Komprimera"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivera"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerar inte om du inte aktiverar Google Play-tjänster."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Aktivera Google Play-tjänster"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installera"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan inte köras utan Google Play-tjänsterna, som saknas på enheten."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Hämta Google Play-tjänster"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fel på Google Play-tjänster"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Det har uppstått ett fel mellan <ns1:g id="APP_NAME">%1$s</ns1:g> och Google Play-tjänsterna. Försök igen."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> fungerar inte utan Google Play-tjänsterna, som inte stöds på enheten."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Uppdatera"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan inte köras om du inte uppdaterar Google Play-tjänsterna."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Uppdatera Google Play-tjänster"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> kan inte köras utan Google Play-tjänster, och dessa uppdateras för närvarande."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"En ny version av Google Play-tjänster krävs. Den uppdateras automatiskt inom kort."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Öppna på mobilen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Logga in"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Logga in med Google"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Sök"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+</resources>

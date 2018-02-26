@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="About.blog">Blog</string>
+    <string name="About.footer">Erstellt vom globalen Bread-Team. Version %1$s.</string>
+    <string name="About.privacy">Datenschutzerklärung</string>
+    <string name="About.reddit">Reddit</string>
+    <string name="About.terms">Nutzungsbedingungen</string>
+    <string name="About.title">Info</string>
+    <string name="About.twitter">Twitter</string>
+    <string name="AccessibilityLabels.close">Schließen</string>
+    <string name="AccessibilityLabels.faq">Support-Center</string>
+    <string name="Account.loadingMessage">Wallet wird geladen</string>
+    <string name="AccountHeader.defaultWalletName">Mein Bread</string>
+    <string name="AccountHeader.equals">=</string>
+    <string name="AccountHeader.manageButtonName">VERWALTEN</string>
+    <string name="Alert.error">Fehler</string>
+    <string name="Alert.noInternet">Keine Internetverbindung gefunden. Bitte überprüfe deine Verbindung und versuche es erneut.</string>
+    <string name="Alert.warning">Achtung</string>
+    <string name="Alerts.copiedAddressesHeader">Adressen kopiert</string>
+    <string name="Alerts.copiedAddressesSubheader">Es wurden alle Wallet-Adressen erfolgreich kopiert.</string>
+    <string name="Alerts.paperKeySet">Offlineschlüssel festgelegt</string>
+    <string name="Alerts.paperKeySetSubheader">Großartig!</string>
+    <string name="Alerts.pinSet">PIN festgelegt</string>
+    <string name="Alerts.sendFailure">Versand fehlgeschlagen</string>
+    <string name="Alerts.sendSuccess">Bestätigung gesendet</string>
+    <string name="Alerts.sendSuccessSubheader">Geld versandt!</string>
+    <string name="ApiClient.jsonError">JSON-Serialisierungsfehler</string>
+    <string name="ApiClient.notReady">Wallet nicht bereit</string>
+    <string name="ApiClient.tokenError">API-Token konnte nicht abgerufen werden</string>
+    <string name="BCH.body">Geben Sie unten eine Ziel-BCH-Adresse ein. Das gesamte BCH Guthaben aus Ihrem Wallet zur Zeit der Aufspaltung (%1$s) wird versendet.</string>
+    <string name="BCH.confirmationMessage">Senden von %1$s an %2$s bestätigen</string>
+    <string name="BCH.confirmationTitle">Bestätigung</string>
+    <string name="BCH.genericError">Ihr Konto enthält kein BCH oder Sie haben BCH nach dem Fork erhalten.</string>
+    <string name="BCH.hashCopiedMessage">Transaktions-ID kopiert</string>
+    <string name="BCH.noAddressError">Bitte geben Sie die Adresse ein</string>
+    <string name="BCH.paymentProtocolError">Zahlungsprotokoll-Anfragen werden bei BCH-Transaktionen nicht unterstützt</string>
+    <string name="BCH.successMessage">BCH wurde erfolgreich versendet.</string>
+    <string name="BCH.title">BCH abheben</string>
+    <string name="BCH.txHashHeader">BCH-Transaktions-ID</string>
+    <string name="BitID.approve">Bestätigen</string>
+    <string name="BitID.authenticationRequest">%1$s fordert die Authentifizierung über Ihr Litecoin-Wallet an</string>
+    <string name="BitID.deny">Ablehnen</string>
+    <string name="BitID.error">Authentifizierungsfehler</string>
+    <string name="BitID.errorMessage">Bitte den Service überprüfen. Es könnte ein erneuter Versuch erforderlich sein.</string>
+    <string name="BitID.success">Erfolgreich authentifiziert</string>
+    <string name="BitID.title">BitID-Authentifizierungsanfrage</string>
+    <string name="Button.cancel">Abbrechen</string>
+    <string name="Button.ignore">Ignorieren</string>
+    <string name="Button.menu">Menü</string>
+    <string name="Button.no">Nein</string>
+    <string name="Button.ok">OK</string>
+    <string name="Button.receive">erhalten</string>
+    <string name="Button.send">senden</string>
+    <string name="Button.settings">Einstellungen</string>
+    <string name="Button.submit">Abschicken</string>
+    <string name="Button.yes">Ja</string>
+    <string name="CameraPlugin.centerInstruction">Zentriere deinen Ausweis im Rechteck</string>
+    <string name="ConfirmPaperPhrase.label">Um sicherzustellen, dass alles korrekt notiert worden ist, gib bitte die folgenden Wörter deines Offlineschlüssels ein.</string>
+    <string name="ConfirmPaperPhrase.word">Wort #%1$s</string>
+    <string name="Confirmation.amountLabel">Betrag, welcher versendet werden soll:</string>
+    <string name="Confirmation.feeLabel">Netzwerkgebühr:</string>
+    <string name="Confirmation.processingTime">Verarbeitungszeit: Die Verarbeitung dieser Transaktion wird %1$s Minuten dauern.</string>
+    <string name="Confirmation.send">Senden</string>
+    <string name="Confirmation.title">Bestätigung</string>
+    <string name="Confirmation.to">An</string>
+    <string name="Confirmation.totalLabel">Gesamtkosten:</string>
+    <string name="DefaultCurrency.litecoinLabel">Litecoin-Anzeigeeinheit</string>
+    <string name="DefaultCurrency.rateLabel">Wechselkurs</string>
+    <string name="ErrorMessages.emailUnavailableMessage">Dieses Gerät ist nicht dafür eingerichtet, E-Mails mit der iOS-Mail-App zu versenden.</string>
+    <string name="ErrorMessages.emailUnavailableTitle">E-Mail nicht verfügbar</string>
+    <string name="ErrorMessages.messagingUnavailableMessage">Dieses Gerät ist nicht dafür eingerichtet, Nachrichten zu versenden.</string>
+    <string name="ErrorMessages.messagingUnavailableTitle">Nachrichtensystem nicht verfügbar</string>
+    <string name="FeeSelector.economy">Sparsam</string>
+    <string name="FeeSelector.economyLabel">Voraussichtliche Transaktionsdauer: 60+ Minuten</string>
+    <string name="FeeSelector.economyWaring">Diese Option wird nicht für zeitkritische Transaktionen empfohlen.</string>
+    <string name="FeeSelector.regular">Regulär</string>
+    <string name="FeeSelector.regularLabel">Voraussichtliche Transaktionsdauer: 10-30 Minuten</string>
+    <string name="FeeSelector.title">Verarbeitungsgeschwindigkeit</string>
+    <string name="Import.Error.duplicate">Dieser private Schlüssel befindet sich bereits in deinem Wallet.</string>
+    <string name="Import.Error.empty">Dieser private Schlüssel ist leer.</string>
+    <string name="Import.Error.highFees">Die Transaktionsgebühren würden das Guthaben überschreiten, die auf diesem Wallet vorhandenen sind.</string>
+    <string name="Import.Error.notValid">Kein gültiger privater Schlüssel</string>
+    <string name="Import.Error.signing">Fehler beim Signieren der Transaktion</string>
+    <string name="Import.SuccessBody">Wallet erfolgreich importiert</string>
+    <string name="Import.checking">Das Privatschlüsselguthaben wird überprüft …</string>
+    <string name="Import.confirm">%1$s (%2$s) von diesem privaten Schlüssel in Ihr Wallet senden? Das Litecoin-Netzwerk erhält eine Gebühr von %3$s (%4$s).</string>
+    <string name="Import.importButton">Importieren</string>
+    <string name="Import.importing">Wallet wird importiert</string>
+    <string name="Import.leftCaption">Zu importierendes Wallet</string>
+    <string name="Import.message">Der Import eines Wallets überträgt das gesamte Guthaben deines anderen Wallets mit einer einzigen Transaktion in dein Bread-Wallet.</string>
+    <string name="Import.password">Dieser private Schlüssel ist passwortgeschützt.</string>
+    <string name="Import.passwordPlaceholder">Passwort</string>
+    <string name="Import.rightCaption">Dein Bread-Wallet</string>
+    <string name="Import.scan">Privaten Schlüssel scannen</string>
+    <string name="Import.success">Der Vorgang war erfolgreich</string>
+    <string name="Import.title">Wallet importieren</string>
+    <string name="Import.unlockingActivity">Schlüssel wird freigeschaltet</string>
+    <string name="Import.warning">Der Import eines Wallets umfasst nicht den Transaktionsverlauf oder andere Zusatzinformationen.</string>
+    <string name="Import.wrongPassword">Falsches Passwort, bitte versuchen Sie es erneut.</string>
+    <string name="JailbreakWarnings.close">Schließen</string>
+    <string name="JailbreakWarnings.ignore">Ignorieren</string>
+    <string name="JailbreakWarnings.messageWithBalance">DAS GERÄT IST NICHT LÄNGER SICHER\nJede beliebige „Jailbreak“-App kann auf Breads Keychain-Daten zugreifen und deine Litecoins stehlen! Lösche dieses Wallet unverzüglich und stelle es auf einem sicheren Gerät wieder her.</string>
+    <string name="JailbreakWarnings.messageWithoutBalance">DAS GERÄT IST NICHT LÄNGER SICHER\nJede beliebige „Jailbreak“-App kann auf Breads Keychain-Daten zugreifen und deine Litecoins stehlen. Bitte setze Bread ausschließlich auf Geräten ohne Jailbreak ein.</string>
+    <string name="JailbreakWarnings.title">ACHTUNG</string>
+    <string name="JailbreakWarnings.wipe">Löschen</string>
+    <string name="LocationPlugin.disabled">Standortdienste sind deaktiviert</string>
+    <string name="LocationPlugin.notAuthorized">Bread fehlt die Berechtigung, um auf die Standortdienste zuzugreifen.</string>
+    <string name="ManageWallet.creationDatePrefix">Du hast dein Wallet am %1$s erstellt</string>
+    <string name="ManageWallet.description">Der Name deines Wallets erscheint ausschließlich im Transaktionsverlauf deines Kontos und kann von niemandem sonst eingesehen werden.</string>
+    <string name="ManageWallet.textFeildLabel">Name des Wallets</string>
+    <string name="ManageWallet.title">Wallet verwalten</string>
+    <string name="MenuButton.buy">Litecoin kaufen</string>
+    <string name="MenuButton.lock">Wallet sperren</string>
+    <string name="MenuButton.security">Sicherheits-Center</string>
+    <string name="MenuButton.settings">Einstellungen</string>
+    <string name="MenuButton.support">Support</string>
+    <string name="MenuViewController.createButton">Neues Wallet erstellen</string>
+    <string name="MenuViewController.modalTitle">Menü</string>
+    <string name="MenuViewController.recoverButton">Wallet wiederherstellen</string>
+    <string name="NodeSelector.automaticButton">Zum automatischen Modus wechseln</string>
+    <string name="NodeSelector.connected">Verbunden</string>
+    <string name="NodeSelector.enterBody">Geben Sie die Node-IP-Adresse und den Port ein (optional)</string>
+    <string name="NodeSelector.enterTitle">Node eingeben</string>
+    <string name="NodeSelector.manualButton">Zum manuellen Modus wechseln</string>
+    <string name="NodeSelector.nodeLabel">Aktueller primärer Node</string>
+    <string name="NodeSelector.notConnected">Nicht verbunden</string>
+    <string name="NodeSelector.statusLabel">Node-Verbindungsstatus</string>
+    <string name="NodeSelector.title">Litecoin-Nodes</string>
+    <string name="PaymentProtocol.Errors.badPaymentRequest">Ungültige Zahlungsanforderung</string>
+    <string name="PaymentProtocol.Errors.corruptedDocument">Nicht unterstütztes oder fehlerhaftes Dokument</string>
+    <string name="PaymentProtocol.Errors.missingCertificate">Fehlendes Zertifikat</string>
+    <string name="PaymentProtocol.Errors.requestExpired">Anfrage abgelaufen</string>
+    <string name="PaymentProtocol.Errors.smallOutputError">Die Zahlung konnte nicht durchgeführt werden</string>
+    <string name="PaymentProtocol.Errors.smallPayment">Litecoin-Zahlungen können nicht geringer als %1$s sein.</string>
+    <string name="PaymentProtocol.Errors.smallTransaction">Litecoin-Transaktionsausgaben können nicht geringer als $@ sein.</string>
+    <string name="PaymentProtocol.Errors.unsupportedSignatureType">Nicht unterstützter Signaturtyp</string>
+    <string name="PaymentProtocol.Errors.untrustedCertificate">Nicht vertrauenswürdiges Zertifikat</string>
+    <string name="Prompts.NoPasscode.body">Ein Gerät-Passcode wird benötigt, um Ihr Wallet zu schützen. Gehen Sie zu den Einstellungen und aktivieren Sie den Passcode.</string>
+    <string name="Prompts.NoPasscode.title">Aktivieren Sie den Gerät-Passcode</string>
+    <string name="Prompts.PaperKey.body">Ihr Paper-Key muss für den Fall, dass Sie Ihr Telefon verlieren oder wechseln, gespeichert werden. Tippen Sie hier, um fortzufahren.</string>
+    <string name="Prompts.PaperKey.title">Maßnahme erforderlich</string>
+    <string name="Prompts.RecommendRescan.body">Möglicherweise ist dein Wallet nicht synchronisiert. Dies kann oft durch ein erneutes Einscannen der Blockchain behoben werden.</string>
+    <string name="Prompts.RecommendRescan.title">Transaktion abgelehnt</string>
+    <string name="Prompts.ShareData.body">Tragen Sie zur Verbesserung von Bread bei, indem Sie Ihre anonymen Daten mit uns teilen</string>
+    <string name="Prompts.ShareData.title">Anonyme Daten teilen</string>
+    <string name="Prompts.TouchId.body">Hier antippen, um Touch ID zu aktivieren</string>
+    <string name="Prompts.TouchId.title">Touch ID aktivieren</string>
+    <string name="Prompts.UpgradePin.body">Bread nutzt mittlerweile eine 6-stellige PIN. Hier antippen, um upzugraden.</string>
+    <string name="Prompts.UpgradePin.title">PIN upgraden</string>
+    <string name="PushNotifications.body">Schalten Sie Benachrichtigungen ein, um in Zukunft besondere Meldungen von Bread zu erhalten.</string>
+    <string name="PushNotifications.label">Push-Benachrichtigungen</string>
+    <string name="PushNotifications.off">Deaktivieren</string>
+    <string name="PushNotifications.on">Aktivieren</string>
+    <string name="PushNotifications.title">Benachrichtigungen</string>
+    <string name="ReScan.alertAction">Synchronisieren</string>
+    <string name="ReScan.alertMessage">Während der Synchronisation kannst du kein Geld versenden.</string>
+    <string name="ReScan.alertTitle">Mit der Blockchain synchronisieren?</string>
+    <string name="ReScan.body1">20–45 Minuten</string>
+    <string name="ReScan.body2">Wenn eine Transaktion im Litecoin-Netzwerk, aber nicht in deinem Bread als abgeschlossen angezeigt wird.</string>
+    <string name="ReScan.body3">Sie erhalten wiederholt eine Fehlermeldung, dass Ihre Transaktion abgewiesen wurde.</string>
+    <string name="ReScan.buttonTitle">Synchronisation starten</string>
+    <string name="ReScan.footer">Während der Synchronisation mit der Blockchain kannst du kein Geld versenden.</string>
+    <string name="ReScan.header">Blockchain-Synchronisation</string>
+    <string name="ReScan.subheader1">Voraussichtliche Dauer</string>
+    <string name="ReScan.subheader2">Wann soll synchronisiert werden?</string>
+    <string name="Receive.copied">In die Zwischenablage kopiert.</string>
+    <string name="Receive.emailButton">E-Mail</string>
+    <string name="Receive.request">Einen Betrag anfordern</string>
+    <string name="Receive.share">Teilen</string>
+    <string name="Receive.textButton">Textnachricht</string>
+    <string name="Receive.title">Erhalten</string>
+    <string name="RecoverWallet.done">Fertig</string>
+    <string name="RecoverWallet.header">Wallet wiederherstellen</string>
+    <string name="RecoverWallet.header_reset_pin">PIN zurücksetzen</string>
+    <string name="RecoverWallet.instruction">Offlineschlüssel eingeben</string>
+    <string name="RecoverWallet.intro">Stelle dein Bread mithilfe deines Offlineschlüssels wieder her.</string>
+    <string name="RecoverWallet.invalid">Der von dir eingegebene Offlineschlüssel ist ungültig. Bitte überprüfe nochmal jedes Wort und versuche es erneut.</string>
+    <string name="RecoverWallet.leftArrow">Linker Pfeil</string>
+    <string name="RecoverWallet.next">Weiter</string>
+    <string name="RecoverWallet.reset_pin_more_info">Für weitere Informationen hier antippen.</string>
+    <string name="RecoverWallet.rightArrow">Rechter Pfeil</string>
+    <string name="RecoverWallet.subheader">Gib den Offlineschlüssel für das Wallet ein, das du wiederherstellen willst.</string>
+    <string name="RecoverWallet.subheader_reset_pin">Gib die Wörter des Offlineschlüssels in die Kästen unten ein, um deine PIN zurückzusetzen.</string>
+    <string name="RequestAnAmount.noAmount">Bitte geben Sie zuerst einen Betrag ein.</string>
+    <string name="RequestAnAmount.title">Einen Betrag anfordern</string>
+    <string name="Scanner.flashButtonLabel">Kamerablitz</string>
+    <string name="Search.complete">abgeschlossen</string>
+    <string name="Search.pending">offen</string>
+    <string name="Search.received">erhalten</string>
+    <string name="Search.sent">gesendet</string>
+    <string name="SecurityCenter.info">Aktiviere alle Sicherheitsfunktionen für maximalen Schutz.</string>
+    <string name="SecurityCenter.paperKeyDescription">Die einzige Möglichkeit, wie du auf deine Litecoins zugreifen kannst, falls du dein Smartphone verlierst oder wechselst.</string>
+    <string name="SecurityCenter.paperKeyTitle">Offlineschlüssel</string>
+    <string name="SecurityCenter.pinDescription">Schütze dein Bread vor nicht autorisierten Benutzern.</string>
+    <string name="SecurityCenter.pinTitle">6-stellige PIN</string>
+    <string name="SecurityCenter.title">Sicherheits-Center</string>
+    <string name="SecurityCenter.touchIdDescription">Eine praktische Möglichkeit, dein Bread zu entsperren und Geld bis zu einer festlegbaren Höchstgrenze zu versenden.</string>
+    <string name="SecurityCenter.touchIdTitle">Touch ID</string>
+    <string name="Send.UsedAddress.firstLine">Litecoin-Adressen sind lediglich zur einmaligen Benutzung vorgesehen.</string>
+    <string name="Send.UsedAddress.secondLIne">Durch eine mehrfache Verwendung können sowohl du als auch der Empfänger leichter identifiziert werden und falls der Empfänger die Adresse nicht direkt kontrolliert, kann das Verluste bedeuten.</string>
+    <string name="Send.UsedAddress.title">Adresse bereits in Verwendung</string>
+    <string name="Send.amountLabel">Betrag</string>
+    <string name="Send.balance">Guthaben: %1$s</string>
+    <string name="Send.cameraUnavailableTitle">Bread darf nicht auf die Kamera zugreifen</string>
+    <string name="Send.cameraunavailableMessage">Rufe die Einstellungen auf, um den Zugriff auf die Kamera zu erlauben.</string>
+    <string name="Send.containsAddress">Das Ziel ist deine eigene Adresse. Du kannst nichts an dich selbst senden.</string>
+    <string name="Send.creatTransactionError">Transaktion konnte nicht erstellen werden.</string>
+    <string name="Send.descriptionLabel">Vermerk</string>
+    <string name="Send.emptyPasteboard">Pasteboard ist leer.</string>
+    <string name="Send.fee">Netzwerkgebühr: %1$s</string>
+    <string name="Send.identityNotCertified">die Identität des Zahlungsempfängers ist nicht bestätigt.</string>
+    <string name="Send.invalidAddressMessage">Die Zieladresse ist keine gültige Litecoin-Adresse.</string>
+    <string name="Send.invalidAddressOnPasteboard">Pasteboard enthält keine gültige Litecoin-Adresse.</string>
+    <string name="Send.invalidAddressTitle">Ungültige Adresse</string>
+    <string name="Send.isRescanning">Das Senden ist während eines kompletten Neuscans deaktiviert.</string>
+    <string name="Send.loadingRequest">Anfrage wird geladen</string>
+    <string name="Send.noAddress">Bitte gib die Adresse des Empfängers ein.</string>
+    <string name="Send.noAmount">Bitte gib den zu sendenden Betrag ein.</string>
+    <string name="Send.pasteLabel">Einfügen</string>
+    <string name="Send.publishTransactionError">Transaktion konnte nicht veröffentlicht werden.</string>
+    <string name="Send.remoteRequestError">Zahlungsanfrage konnte nicht geladen werden</string>
+    <string name="Send.scanLabel">Scannen</string>
+    <string name="Send.sendLabel">Senden</string>
+    <string name="Send.title">Senden</string>
+    <string name="Send.toLabel">An</string>
+    <string name="Settings.about">Info</string>
+    <string name="Settings.advancedTitle">Erweiterte Einstellungen</string>
+    <string name="Settings.currency">Anzeigewährung</string>
+    <string name="Settings.earlyAccess">Zum Early Access anmelden</string>
+    <string name="Settings.enjoying">Gefällt dir Bread?</string>
+    <string name="Settings.importTitle">Wallet importieren</string>
+    <string name="Settings.manage">Verwalten</string>
+    <string name="Settings.notifications">Benachrichtigungen</string>
+    <string name="Settings.review">Schreibe eine Rezension für unsere App</string>
+    <string name="Settings.shareData">Übermittle anonyme Nutzungsdaten</string>
+    <string name="Settings.sync">Blockchain-Synchronisation</string>
+    <string name="Settings.title">Einstellungen</string>
+    <string name="Settings.touchIdLimit">Touch-ID-Ausgabenlimit</string>
+    <string name="Settings.wallet">Wallet</string>
+    <string name="Settings.wipe">Ein anderes Wallet starten/wiederherstellen</string>
+    <string name="ShareData.body">Hilf dabei, Bread zu verbessern, indem du uns deine Nutzungsdaten anonym übermittelst. Hiervon sind sämtliche Finanzinformationen ausgeschlossen. Wir respektieren deine finanzielle Privatsphäre.</string>
+    <string name="ShareData.header">Nutzungsdaten übermitteln?</string>
+    <string name="ShareData.toggleLabel">Anonyme Nutzungsdaten übermitteln?</string>
+    <string name="StartPaperPhrase.againButtonTitle">Offlineschlüssel erneut notieren</string>
+    <string name="StartPaperPhrase.body">Dein Offlineschlüssel ist die einzige Möglichkeit, dein Bread wiederherzustellen, falls du dein Smartphone verlierst, austauscht, es gestohlen wird oder kaputtgeht.\n\nHierfür zeigen wir dir eine Liste von Wörtern an, damit du sie dir auf ein Stück Papier notieren kannst, das es sicher aufzubewahren gilt.</string>
+    <string name="StartPaperPhrase.buttonTitle">Offlineschlüssel notieren</string>
+    <string name="StartPaperPhrase.date">Du hast dir deinen Offlineschlüssel zuletzt am %1$s notiert</string>
+    <string name="StartViewController.message">Die sicherste Option zur Nutzung von Litecoin.</string>
+    <string name="SyncingView.connecting">Verbindet</string>
+    <string name="SyncingView.header">Synchronisation läuft</string>
+    <string name="SyncingView.retry">Erneut versuchen</string>
+    <string name="SyncingView.syncing">Synchronisiert</string>
+    <string name="TimeSince.days">%1$s d</string>
+    <string name="TimeSince.hours">%1$s h</string>
+    <string name="TimeSince.minutes">%1$s m</string>
+    <string name="TimeSince.seconds">%1$s s</string>
+    <string name="TouchIdSettings.customizeText">Sie können über %1$s ein Ausgabenmaximum für Touch ID festlegen.</string>
+    <string name="TouchIdSettings.label">Nutze deinen Fingerabdruck, um dein Bread zu entsperren und Geld bis zu einer festlegbaren Höchstgrenze zu versenden.</string>
+    <string name="TouchIdSettings.linkText">Bildschirm für Touch-ID-Ausgabenmaximum</string>
+    <string name="TouchIdSettings.spendingLimit">Ausgabelimit: %1$s  (%2$s)</string>
+    <string name="TouchIdSettings.switchLabel">Touch ID für Bread aktivieren</string>
+    <string name="TouchIdSettings.title">Touch ID</string>
+    <string name="TouchIdSettings.unavailableAlertMessage">Du hast Touch ID auf diesem Gerät noch nicht eingerichtet. Öffne Einstellungen -> Touch ID &amp; Passcode, um es jetzt einzurichten.</string>
+    <string name="TouchIdSettings.unavailableAlertTitle">Touch ID nicht eingerichtet</string>
+    <string name="TouchIdSpendingLimit">Immer PIN anfordern</string>
+    <string name="TouchIdSpendingLimit.body">Du musst deine 6-stellige PIN eingeben, um Transaktionen abzuschicken, die über deinem Ausgabenlimit liegen, sowie alle 48 Stunden seit du deine 6-stellige PIN das letzte Mal eingegeben hast.</string>
+    <string name="TouchIdSpendingLimit.title">Touch-ID-Ausgabenlimit</string>
+    <string name="Transaction.available">Verfügbar für Ausgaben</string>
+    <string name="Transaction.complete">Abgeschlossen</string>
+    <string name="Transaction.ending">Endguthaben: %1$s</string>
+    <string name="Transaction.exchangeOnDayReceived">Wechselkurs beim Erhalt:</string>
+    <string name="Transaction.exchangeOnDaySent">Wechselkurs beim Senden:</string>
+    <string name="Transaction.fee">(%1$s Gebühr)</string>
+    <string name="Transaction.invalid">UNGÜLTIG</string>
+    <string name="Transaction.justNow">gerade eben</string>
+    <string name="Transaction.receivedStatus">In Bearbeitung: %1$s</string>
+    <string name="Transaction.sendingStatus">In Bearbeitung: %1$s</string>
+    <string name="Transaction.starting">Startguthaben: %1$s</string>
+    <string name="Transaction.waiting">Bestätigung ausstehend. Einige Händler fordern eine Bestätigung, um Transaktionen abzuschließen. Voraussichtliche Dauer: 1–2 Stunden.</string>
+    <string name="TransactionDetails.account">Konto</string>
+    <string name="TransactionDetails.amountHeader">Betrag</string>
+    <string name="TransactionDetails.blockHeightLabel">Bestätigt im Block</string>
+    <string name="TransactionDetails.commentsHeader">Vermerk</string>
+    <string name="TransactionDetails.emptyMessage">Hier werden deine Transaktionen angezeigt.</string>
+    <string name="TransactionDetails.from">an %1$s</string>
+    <string name="TransactionDetails.more">Mehr …</string>
+    <string name="TransactionDetails.moved">%1$s bewegt</string>
+    <string name="TransactionDetails.movedAmountDescription">Verschoben <b>%1@</b></string>
+    <string name="TransactionDetails.notConfirmedBlockHeightLabel">Nicht bestätigt</string>
+    <string name="TransactionDetails.received">%1$s erhalten</string>
+    <string name="TransactionDetails.receivedAmountDescription">Erhalten <b>%1@</b></string>
+    <string name="TransactionDetails.sent">%1$s gesendet</string>
+    <string name="TransactionDetails.sentAmountDescription">Gesendet <b>%1@</b></string>
+    <string name="TransactionDetails.statusHeader">Status</string>
+    <string name="TransactionDetails.title">Transaktionsdaten</string>
+    <string name="TransactionDetails.to">an %1$s</string>
+    <string name="TransactionDetails.txHashHeader">Litecoin-Transaktions-ID</string>
+    <string name="TransactionDirection.address">An dieser Adresse empfangen</string>
+    <string name="TransactionDirection.to">An diese Adresse versandt</string>
+    <string name="URLHandling.addressList">Berechtigung für das Kopieren der Wallet-Adresse in die Zwischenablage erteilen</string>
+    <string name="URLHandling.addressListAlertTitle">Wallet-Adressen kopieren</string>
+    <string name="URLHandling.addressaddressListAlertMessage">Wallet-Adressen in die Zwischenablage kopieren?</string>
+    <string name="URLHandling.copy">Kopieren</string>
+    <string name="UnlockScreen.disabled">Deaktiviert bis: %1$s</string>
+    <string name="UnlockScreen.myAddress">Meine Adresse</string>
+    <string name="UnlockScreen.resetPin">PIN zurücksetzen</string>
+    <string name="UnlockScreen.scan">Scannen</string>
+    <string name="UnlockScreen.subheader">PIN eingeben</string>
+    <string name="UnlockScreen.touchIdPrompt">Entsperre dein Bread.</string>
+    <string name="UnlockScreen.touchIdText">Mit Touch ID entsperren</string>
+    <string name="UnlockScreen.unlocked">Wallet entsperrt</string>
+    <string name="UpdatePin.caption">Merke dir diese PIN. Falls du sie vergisst, kannst du nicht mehr auf deine Litecoins zugreifen.</string>
+    <string name="UpdatePin.createInstruction">Deine PIN wird verwendet, um dein Bread zu entsperren und Geld zu versenden.</string>
+    <string name="UpdatePin.createTitle">PIN festlegen</string>
+    <string name="UpdatePin.createTitleConfirm">PIN erneut eingeben</string>
+    <string name="UpdatePin.enterCurrent">Gib deine derzeitige PIN ein.</string>
+    <string name="UpdatePin.enterNew">Gib deine neue PIN ein.</string>
+    <string name="UpdatePin.reEnterNew">Gib deine neue PIN erneut ein.</string>
+    <string name="UpdatePin.setPinError">Leider konnte deine PIN nicht aktualisiert werden.</string>
+    <string name="UpdatePin.setPinErrorTitle">Fehler bei der PIN-Aktualisierung</string>
+    <string name="UpdatePin.updateTitle">PIN aktualisieren</string>
+    <string name="VerifyPin.authorize">Bitte geben Sie Ihren PIN ein, um diese Transaktion zu genehmigen.</string>
+    <string name="VerifyPin.continueBody">Bitte gib deine PIN ein, um fortzufahren</string>
+    <string name="VerifyPin.title">PIN erforderlich</string>
+    <string name="VerifyPin.touchIdMessage">Diese Transaktion genehmigen</string>
+    <string name="Watch.noWalletWarning">Öffne die Bread-iPhone-App, um dein Wallet einzurichten.</string>
+    <string name="Webview.dismiss">Verwerfen</string>
+    <string name="Webview.errorMessage">Beim Laden des Inhalts ist ein Fehler aufgetreten. Bitte versuche es erneut.</string>
+    <string name="Webview.updating">Aktualisierung läuft …</string>
+    <string name="Welcome.body">Breadwallet heißt jetzt Bread und hat ein brandneues Erscheinungsbild sowie einige neue Funktionen.\n\nWenn Sie Hilfe benötigen, halten Sie Ausschau nach dem (?), das auf den meisten Bildschirm oben rechts zu finden ist.</string>
+    <string name="Welcome.title">Willkommen bei Bread!</string>
+    <string name="WipeWallet.alertMessage">Sind Sie sicher, dass Sie dieses Wallet löschen möchten?</string>
+    <string name="WipeWallet.alertTitle">Wallet löschen?</string>
+    <string name="WipeWallet.failedMessage">Wallet konnte nicht gelöscht werden.</string>
+    <string name="WipeWallet.failedTitle">Fehlgeschlagen</string>
+    <string name="WipeWallet.instruction">Geben Sie die Wiederherstellungsphrase des Wallets ein, um es zu löschen und die Wiederherstellung eines anderen Wallets zu beginnen. Ihr aktueller Kontostand bleibt mit dieser Phrase verbunden.</string>
+    <string name="WipeWallet.startMessage">Das Anlegen oder Wiederherstellen einer weiteren Wallet ermöglicht es Ihnen, auf diesem Gerät auf eine andere Bread-Wallet zuzugreifen und diese zu verwalten.</string>
+    <string name="WipeWallet.startWaring">Sie werden von diesem Gerät aus keinen Zugriff auf Ihr aktuelles Bread-Wallet mehr haben. Der Saldo verbleibt auf dem Satz.</string>
+    <string name="WipeWallet.title">Ein anderes Wallet beginnen oder wiederherstellen</string>
+    <string name="WipeWallet.wipe">Löschen</string>
+    <string name="WipeWallet.wiping">Wird gelöscht ...</string>
+    <string name="WritePaperPhrase.instruction">Schreib dir jedes Wort der Reihenfolge nach auf und bewahre die Notiz an einem sicheren Ort auf.</string>
+    <string name="WritePaperPhrase.next">Weiter</string>
+    <string name="WritePaperPhrase.previous">Zurück</string>
+    <string name="WritePaperPhrase.step">%1$d von %2$d</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s: %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s: %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Nach oben"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Weitere Optionen"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fertig"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Alle ansehen"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"App auswählen"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"Aus"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"An"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Suchen…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Suchanfrage löschen"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Suchanfrage"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Suchen"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Suchanfrage senden"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Sprachsuche"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Aktivieren"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> funktioniert erst nach der Aktivierung der Google Play-Dienste."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play-Dienste aktivieren"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installieren"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind die Google Play-Dienste erforderlich, die auf deinem Gerät nicht installiert sind."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play-Dienste installieren"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Fehler bei Zugriff auf Google Play-Dienste"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> hat Probleme mit Google Play-Diensten. Bitte versuche es noch einmal."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die auf deinem Gerät nicht unterstützt werden."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Aktualisieren"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> wird nur ausgeführt, wenn du die Google Play-Dienste aktualisierst."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play-Dienste aktualisieren"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Zur Nutzung von <ns1:g id="APP_NAME">%1$s</ns1:g> sind Google Play-Dienste erforderlich, die gerade aktualisiert werden."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Eine neue Version der Google Play-Dienste wird benötigt. Diese wird in Kürze automatisch aktualisiert."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Auf Smartphone öffnen"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Anmelden"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Über Google anmelden"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Suchen"</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>
