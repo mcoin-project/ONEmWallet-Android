@@ -1,4 +1,0 @@
-See file:///home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/tmp/linkCoreArmeabiDebugDemoSharedLibrary/output.txt for all output for linkCoreArmeabiDebugDemoSharedLibrary.
-linking libcore.so successful.
-
-Finished linkCoreArmeabiDebugDemoSharedLibrary, see full log file:///home/mihait/AndroidStudioProjects/cryptowallet-example/loafwallet-android/app/build/tmp/linkCoreArmeabiDebugDemoSharedLibrary/output.txt.

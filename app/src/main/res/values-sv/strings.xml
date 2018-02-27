@@ -3,7 +3,7 @@
   <!-- About screen blog label -->
   <string name="About.blog">Blogg</string>
   <!-- About screen footer -->
-  <string name="About.footer">Skapad av det lokala teamet för Bread. Version %1$s.</string>
+  <string name="About.footer">Skapad av det lokala teamet för ONEm. Version %1$s.</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Sekretesspolicy</string>
   <!-- About screen reddit label -->
@@ -21,7 +21,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Laddar plånbok</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Mitt Bread</string>
+  <string name="AccountHeader.defaultWalletName">Mitt ONEm</string>
   <!-- Equals symbol -->
   <string name="AccountHeader.equals">=</string>
   <!-- Manage wallet button title -->
@@ -173,13 +173,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Plånbok som ska importeras</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Genom att importera en plånbok överförs alla pengar från din andra plånbok till Bread genom en enda transaktion.</string>
+  <string name="Import.message">Genom att importera en plånbok överförs alla pengar från din andra plånbok till ONEm genom en enda transaktion.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Denna privata nyckel är lösenordsskyddad.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">lösenord</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Din Bread-plånbok</string>
+  <string name="Import.rightCaption">Din ONEm-plånbok</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Läs av privat nyckel</string>
   <!-- Import wallet success alert title -->
@@ -199,9 +199,9 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Ignorera</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">ENHETENS SÄKERHET ÄR ÄVENTYRAD\nEn \"intrångs\"-app kan få tillgång till Breads nyckeldata och stjäla dina bitcoin! Töm denna plånbok direkt och återupprätta den på en säker enhet.</string>
+  <string name="JailbreakWarnings.messageWithBalance">ENHETENS SÄKERHET ÄR ÄVENTYRAD\nEn \"intrångs\"-app kan få tillgång till ONEms nyckeldata och stjäla dina bitcoin! Töm denna plånbok direkt och återupprätta den på en säker enhet.</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithoutBalance">ENHETENS SÄKERHET ÄR ÄVENTYRAD\nEn \"intrångs\"-app kan få tillgång till Breads nyckeldata och stjäla dina bitcoin! Använd Bread endast på en säker enhet.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">ENHETENS SÄKERHET ÄR ÄVENTYRAD\nEn \"intrångs\"-app kan få tillgång till ONEms nyckeldata och stjäla dina bitcoin! Använd ONEm endast på en säker enhet.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">VARNING</string>
   <!-- Wipe wallet button -->
@@ -209,7 +209,7 @@
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Platstjänster är inaktiverade.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">Bread har inte rätt att utnyttja platstjänster</string>
+  <string name="LocationPlugin.notAuthorized">ONEm har inte rätt att utnyttja platstjänster</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Du skapade din plånbok på %1$s</string>
   <!-- Manage wallet description text -->
@@ -283,7 +283,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transaktionen avslogs</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Hjälp till att förbättra Bread genom att dela dina anonyma data med oss</string>
+  <string name="Prompts.ShareData.body">Hjälp till att förbättra ONEm genom att dela dina anonyma data med oss</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Dela anonyma data</string>
   <!-- Enable touch ID prompt body -->
@@ -291,11 +291,11 @@
   <!-- Enable touch ID prompt title -->
   <string name="Prompts.TouchId.title">Aktivera Touch ID</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">Bread har uppgraderat till att använda 6-siffrig PIN-kod. Klicka här för att uppgradera.</string>
+  <string name="Prompts.UpgradePin.body">ONEm har uppgraderat till att använda 6-siffrig PIN-kod. Klicka här för att uppgradera.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Uppgradera PIN-kod</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Slå på aviseringar för att få särskilda meddelanden från Bread i framtiden.</string>
+  <string name="PushNotifications.body">Slå på aviseringar för att få särskilda meddelanden från ONEm i framtiden.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Push-meddelanden</string>
   <!-- Push notifications are off label -->
@@ -325,7 +325,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Ange ordnyckel</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Återupprätta Bread med din ordnyckel.</string>
+  <string name="RecoverWallet.intro">Återupprätta ONEm med din ordnyckel.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">Den ordnyckel du angav är ogiltig. Dubbelkolla varje ord och försök igen.</string>
   <!-- Previous button accessibility label -->
@@ -353,7 +353,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minuter</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Om en transaktion visar sig som klar i bitcoins nätverk men inte i Bread.</string>
+  <string name="ReScan.body2">Om en transaktion visar sig som klar i bitcoins nätverk men inte i ONEm.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Du får gång på gång ett meddelande som säger att din transaktion avvisades.</string>
   <!-- Start Sync button label -->
@@ -383,13 +383,13 @@
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Ordnyckel</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Skyddar ditt Bread från obehöriga användare.</string>
+  <string name="SecurityCenter.pinDescription">Skyddar ditt ONEm från obehöriga användare.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-siffrig PIN-kod</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Säkerhetscenter</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Lås enkelt upp ditt Bread och skicka pengar upp till en inställd gräns.</string>
+  <string name="SecurityCenter.touchIdDescription">Lås enkelt upp ditt ONEm och skicka pengar upp till en inställd gräns.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Send money amount label -->
@@ -399,7 +399,7 @@
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Gå till Inställningar för att ge tillgång till kameran.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">Bread har inte tillgång till kameran</string>
+  <string name="Send.cameraUnavailableTitle">ONEm har inte tillgång till kameran</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">Destinationen är din egen adress. Du kan inte skicka till dig själv.</string>
   <!-- Could not create transaction alert title -->
@@ -455,7 +455,7 @@
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Använd Snabb tillgång</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Gillar du Bread?</string>
+  <string name="Settings.enjoying">Gillar du ONEm?</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Importera plånbok</string>
   <!-- Manage settings section header -->
@@ -477,7 +477,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Starta/Återställ en annan plånbok</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Hjälp till att förbättra Bread genom att dela dina anonyma uppgifter med oss. Detta inbegriper inga ekonomiska uppgifter. Vi respekterar din ekonomiska sekretess.</string>
+  <string name="ShareData.body">Hjälp till att förbättra ONEm genom att dela dina anonyma uppgifter med oss. Detta inbegriper inga ekonomiska uppgifter. Vi respekterar din ekonomiska sekretess.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Dela uppgifter?</string>
   <!-- Share data switch label. -->
@@ -485,7 +485,7 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Skriv ner ordnyckel på nytt</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Din ordnyckel  är enda sättet att återupprätta Bread om du förlorat din telefon, blivit bestulen på den eller har uppgraderat den.\n\nVi visar dig en lista över ord som du kan skriva ner på ett papper och gömma undan.</string>
+  <string name="StartPaperPhrase.body">Din ordnyckel  är enda sättet att återupprätta ONEm om du förlorat din telefon, blivit bestulen på den eller har uppgraderat den.\n\nVi visar dig en lista över ord som du kan skriva ner på ett papper och gömma undan.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Skriv ner ordnyckel</string>
   <!-- Argument is date -->
@@ -511,13 +511,13 @@
   <!-- You can customize your Touch ID Spending Limit from the [TouchIdSettings.linkText gets added here as a button] -->
   <string name="TouchIdSettings.customizeText">Du kan anpassa din utgiftsgräns i Touch ID från %1$s.</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Använd ditt fingeravtryck för att låsa upp Bread och skicka pengar upp till en inställd gräns.</string>
+  <string name="TouchIdSettings.label">Använd ditt fingeravtryck för att låsa upp ONEm och skicka pengar upp till en inställd gräns.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Sida för utgiftsgräns i Touch ID</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Utnyttjandegräns: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Aktivera Touch ID för Bread</string>
+  <string name="TouchIdSettings.switchLabel">Aktivera Touch ID för ONEm</string>
   <!-- Touch ID settings view title -->
   <string name="TouchIdSettings.title">Touch ID</string>
   <!-- Touch ID unavailable alert message -->
@@ -605,7 +605,7 @@
   <!-- Unlock Screen sub-header -->
   <string name="UnlockScreen.subheader">Ange PIN-kod</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Lås upp Bread.</string>
+  <string name="UnlockScreen.touchIdPrompt">Lås upp ONEm.</string>
   <!-- Unlock with TouchID accessibility label -->
   <string name="UnlockScreen.touchIdText">Lås upp med TouchID</string>
   <!-- Wallet unlocked message -->
@@ -613,7 +613,7 @@
   <!-- Update PIN caption text -->
   <string name="UpdatePin.caption">Kom ihåg PIN-koden. Om du glömmer den, kommer du inte åt dina bitcoin.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Din PIN-kod används för att låsa upp ditt Bread och skicka pengar</string>
+  <string name="UpdatePin.createInstruction">Din PIN-kod används för att låsa upp ditt ONEm och skicka pengar</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Ställ in PIN-kod</string>
   <!-- Update PIN title -->
@@ -647,7 +647,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Godkänn denna transaktion</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Öppna iPhone-appen Bread för att ställa in din plånbok.</string>
+  <string name="Watch.noWalletWarning">Öppna iPhone-appen ONEm för att ställa in din plånbok.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Avfärda</string>
   <!-- Webview loading error message -->
@@ -655,9 +655,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Uppdaterar...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Breadplånboken har bytt namn till Bread, med ett splitter nytt utseende och några nya funktioner.\n\nOm du behöver hjälp, leta efter (?)-tecknet i det övre högra hörnet på de flesta skärmar.</string>
+  <string name="Welcome.body">ONEmplånboken har bytt namn till ONEm, med ett splitter nytt utseende och några nya funktioner.\n\nOm du behöver hjälp, leta efter (?)-tecknet i det övre högra hörnet på de flesta skärmar.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Välkommen till Bread!</string>
+  <string name="Welcome.title">Välkommen till ONEm!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Är du säker på att du vill ta bort den här plånboken.</string>
   <!-- Wipe wallet alert title -->
@@ -669,9 +669,9 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Ange den här plånbokens återställningsfras för att rensa den och starta eller återställa en annan. Ditt nuvarande saldo är kvar på den här frasen.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Att starta eller återställa en annan plånbok ger dig tillgång till och låter dig hantera en annan Breadplånbok på denna enhet.</string>
+  <string name="WipeWallet.startMessage">Att starta eller återställa en annan plånbok ger dig tillgång till och låter dig hantera en annan ONEmplånbok på denna enhet.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWaring">Du kommer inte längre att kunna komma åt din aktuella Breadplånbok från denna enhet. Saldot kommer att kvarstå på frasen.</string>
+  <string name="WipeWallet.startWaring">Du kommer inte längre att kunna komma åt din aktuella ONEmplånbok från denna enhet. Saldot kommer att kvarstå på frasen.</string>
   <!-- Wipe wallet navigation item title. -->
   <string name="WipeWallet.title">Starta eller hämta en annan plånbok</string>
   <!-- Wipe wallet button title -->

@@ -3,7 +3,7 @@
   <!-- About screen blog label -->
   <string name="About.blog">Blog</string>
   <!-- About screen footer -->
-  <string name="About.footer">Realizzato dal team globale Bread. Versione %1$s.</string>
+  <string name="About.footer">Realizzato dal team globale ONEm. Versione %1$s.</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Informativa sulla Privacy</string>
   <!-- About screen reddit label -->
@@ -21,7 +21,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Caricamento Portafoglio</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Il Mio Bread</string>
+  <string name="AccountHeader.defaultWalletName">Il Mio ONEm</string>
   <!-- Equals symbol -->
   <string name="AccountHeader.equals">=</string>
   <!-- Manage wallet button title -->
@@ -173,13 +173,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Portafoglio da importare</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">L\'importazione di un portafoglio trasferisce tutto il denaro dal tuo altro portafoglio al portafoglio Bread utilizzando una singola transazione.</string>
+  <string name="Import.message">L\'importazione di un portafoglio trasferisce tutto il denaro dal tuo altro portafoglio al portafoglio ONEm utilizzando una singola transazione.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Questa chiave privata è protetta da password.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">password</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Il Tuo Portafoglio Bread</string>
+  <string name="Import.rightCaption">Il Tuo Portafoglio ONEm</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Acquisisci Chiave Privata</string>
   <!-- Import wallet success alert title -->
@@ -199,9 +199,9 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Ignora</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">SICUREZZA DEL DISPOSITIVO COMPROMESSA\nQualsiasi applicazione \"jailbreak\" può accedere ai dati di keychain di Bread e rubarti i bitcoin! Cancella immediatamente questo portafoglio ed effettua il ripristino su un dispositivo sicuro.</string>
+  <string name="JailbreakWarnings.messageWithBalance">SICUREZZA DEL DISPOSITIVO COMPROMESSA\nQualsiasi applicazione \"jailbreak\" può accedere ai dati di keychain di ONEm e rubarti i bitcoin! Cancella immediatamente questo portafoglio ed effettua il ripristino su un dispositivo sicuro.</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithoutBalance">SICUREZZA DEL DISPOSITIVO COMPROMESSA\nQualsiasi applicazione \"jailbreak\" può accedere ai dati di keychain di Bread e rubarti i bitcoin. Utilizza Bread solamente su un dispositivo senza jailbreak.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">SICUREZZA DEL DISPOSITIVO COMPROMESSA\nQualsiasi applicazione \"jailbreak\" può accedere ai dati di keychain di ONEm e rubarti i bitcoin. Utilizza ONEm solamente su un dispositivo senza jailbreak.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">ATTENZIONE</string>
   <!-- Wipe wallet button -->
@@ -209,7 +209,7 @@
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">I servizi di localizzazione sono disabilitati.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">Bread non dispone dell\'autorizzazione per accedere ai servizi di localizzazione.</string>
+  <string name="LocationPlugin.notAuthorized">ONEm non dispone dell\'autorizzazione per accedere ai servizi di localizzazione.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Hai creato il tuo portafoglio il %1$s</string>
   <!-- Manage wallet description text -->
@@ -283,7 +283,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transazione Rifiutata</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Aiutaci a migliorare Bread condividendo i tuoi dati con noi anonimamente</string>
+  <string name="Prompts.ShareData.body">Aiutaci a migliorare ONEm condividendo i tuoi dati con noi anonimamente</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Condividi dati anonimamente</string>
   <!-- Enable touch ID prompt body -->
@@ -291,11 +291,11 @@
   <!-- Enable touch ID prompt title -->
   <string name="Prompts.TouchId.title">Attiva Touch ID</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">Bread è stato aggiornato all\'utilizzo di un PIN a 6 cifre. Tocca qui per aggiornare.</string>
+  <string name="Prompts.UpgradePin.body">ONEm è stato aggiornato all\'utilizzo di un PIN a 6 cifre. Tocca qui per aggiornare.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Aggiorna il PIN</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Attiva le notifiche per ricevere messaggi speciali da Bread in futuro.</string>
+  <string name="PushNotifications.body">Attiva le notifiche per ricevere messaggi speciali da ONEm in futuro.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Notifiche Push</string>
   <!-- Push notifications are off label -->
@@ -325,7 +325,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Inserisci Chiave Cartacea</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Recupera il tuo Bread con la tua chiave cartacea.</string>
+  <string name="RecoverWallet.intro">Recupera il tuo ONEm con la tua chiave cartacea.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">La chiave cartacea inserita non è valida. Si prega di controllare ogni parola due volte e riprovare.</string>
   <!-- Previous button accessibility label -->
@@ -353,7 +353,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minuti</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Se una transazione figura come completata sulla rete bitcoin, ma non sul tuo Bread.</string>
+  <string name="ReScan.body2">Se una transazione figura come completata sulla rete bitcoin, ma non sul tuo ONEm.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Hai ricevuto ripetutamente un errore che dice che la transazione è stata rifiutata.</string>
   <!-- Start Sync button label -->
@@ -383,13 +383,13 @@
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Chiave Cartacea</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Protegge il tuo Bread dagli utenti non autorizzati.</string>
+  <string name="SecurityCenter.pinDescription">Protegge il tuo ONEm dagli utenti non autorizzati.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">PIN a 6 cifre</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Centro Sicurezza</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Sblocca comodamente il tuo Bread e invia denaro fino a un limite impostato.</string>
+  <string name="SecurityCenter.touchIdDescription">Sblocca comodamente il tuo ONEm e invia denaro fino a un limite impostato.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Send money amount label -->
@@ -399,7 +399,7 @@
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Vai su Impostazioni per consentire l\'accesso alla fotocamera.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">Bread non è autorizzato ad accedere alla fotocamera</string>
+  <string name="Send.cameraUnavailableTitle">ONEm non è autorizzato ad accedere alla fotocamera</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">La destinazione corrisponde al tuo indirizzo. Non puoi inviare a te stesso.</string>
   <!-- Could not create transaction alert title -->
@@ -455,7 +455,7 @@
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Iscriviti all\'Accesso Immediato</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Ti piace Bread?</string>
+  <string name="Settings.enjoying">Ti piace ONEm?</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Importa Portafoglio</string>
   <!-- Manage settings section header -->
@@ -477,7 +477,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Inizia/Recupera un altro portafogli</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Aiuta a migliorare Bread condividendo con noi i tuoi dati anonimi. Ciò non include alcuna informazione finanziaria. Rispettiamo la tua privacy finanziaria.</string>
+  <string name="ShareData.body">Aiuta a migliorare ONEm condividendo con noi i tuoi dati anonimi. Ciò non include alcuna informazione finanziaria. Rispettiamo la tua privacy finanziaria.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Condividi Dati?</string>
   <!-- Share data switch label. -->
@@ -485,7 +485,7 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Annota la Chiave Cartacea di nuovo</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">La tua chiave cartacea è l\'unico modo per ripristinare il tuo Bread, nel caso il tuo telefono sia perso, rubato, rotto o aggiornato.\n\nTi mostreremo un elenco di parole da annotare su un pezzo di carta e conservare al sicuro.</string>
+  <string name="StartPaperPhrase.body">La tua chiave cartacea è l\'unico modo per ripristinare il tuo ONEm, nel caso il tuo telefono sia perso, rubato, rotto o aggiornato.\n\nTi mostreremo un elenco di parole da annotare su un pezzo di carta e conservare al sicuro.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Annota la Chiave Cartacea</string>
   <!-- Argument is date -->
@@ -511,13 +511,13 @@
   <!-- You can customize your Touch ID Spending Limit from the [TouchIdSettings.linkText gets added here as a button] -->
   <string name="TouchIdSettings.customizeText">Puoi personalizzare il tuo limite di spesa tramite Touch ID %1$s.</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Utilizza l\'impronta digitale per sbloccare il tuo Bread e inviare denaro fino a un limite impostato.</string>
+  <string name="TouchIdSettings.label">Utilizza l\'impronta digitale per sbloccare il tuo ONEm e inviare denaro fino a un limite impostato.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Schermata limite di spesa con Touch ID</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Limite di spesa: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Abilita Touch ID per Bread</string>
+  <string name="TouchIdSettings.switchLabel">Abilita Touch ID per ONEm</string>
   <!-- Touch ID settings view title -->
   <string name="TouchIdSettings.title">Touch ID</string>
   <!-- Touch ID unavailable alert message -->
@@ -605,7 +605,7 @@
   <!-- Unlock Screen sub-header -->
   <string name="UnlockScreen.subheader">Inserisci PIN</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Sblocca il tuo Bread.</string>
+  <string name="UnlockScreen.touchIdPrompt">Sblocca il tuo ONEm.</string>
   <!-- Unlock with TouchID accessibility label -->
   <string name="UnlockScreen.touchIdText">Sblocca con Touch ID</string>
   <!-- Wallet unlocked message -->
@@ -613,7 +613,7 @@
   <!-- Update PIN caption text -->
   <string name="UpdatePin.caption">Ricorda questo PIN. Se lo dimentichi, non sarai in grado di accedere al tuo bitcoin.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Il PIN verrà utilizzato per sbloccare il tuo Bread e inviare denaro.</string>
+  <string name="UpdatePin.createInstruction">Il PIN verrà utilizzato per sbloccare il tuo ONEm e inviare denaro.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Imposta PIN</string>
   <!-- Update PIN title -->
@@ -647,7 +647,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Autorizza questa transazione</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Apri l\'app Bread per iPhone per impostare tuo il portafoglio.</string>
+  <string name="Watch.noWalletWarning">Apri l\'app ONEm per iPhone per impostare tuo il portafoglio.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Ignora</string>
   <!-- Webview loading error message -->
@@ -655,9 +655,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">In aggiornamento…</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Breadwallet ha cambiato il suo nome in Bread e ha un look nuovissimo nonché alcune nuove funzionalità.\n\nSe hai bisogno di aiuto, cerca il (?) a destra in alto sulla maggior parte delle schermate.</string>
+  <string name="Welcome.body">ONEmwallet ha cambiato il suo nome in ONEm e ha un look nuovissimo nonché alcune nuove funzionalità.\n\nSe hai bisogno di aiuto, cerca il (?) a destra in alto sulla maggior parte delle schermate.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Ti diamo il benvenuto su Bread!</string>
+  <string name="Welcome.title">Ti diamo il benvenuto su ONEm!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">Sicuro di voler eliminare questo portafogli?</string>
   <!-- Wipe wallet alert title -->
@@ -669,9 +669,9 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Inserisci la frase di recupero di questo portafogli per ripulirlo o recuperane un\'altra. Il tuo saldo rimane in questa frase.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Iniziare o recuperare un altro portafoglio ti consente di avere accesso e gestire un portafoglio Bread diverso su questo dispositivo.</string>
+  <string name="WipeWallet.startMessage">Iniziare o recuperare un altro portafoglio ti consente di avere accesso e gestire un portafoglio ONEm diverso su questo dispositivo.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWaring">Non sarai più in grado di accedere al tuo portafoglio Bread attuale da questo dispositivo. Il saldo resterà solo un modo di dire.</string>
+  <string name="WipeWallet.startWaring">Non sarai più in grado di accedere al tuo portafoglio ONEm attuale da questo dispositivo. Il saldo resterà solo un modo di dire.</string>
   <!-- Wipe wallet navigation item title. -->
   <string name="WipeWallet.title">Inizia o recupera un altro portafogli.</string>
   <!-- Wipe wallet button title -->

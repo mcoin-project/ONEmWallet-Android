@@ -13,7 +13,7 @@
                 android:fitsSystemWindows="true"
                 android:focusableInTouchMode="true"
                 android:orientation="vertical"
-                tools:context="com.breadwallet.presenter.activities.BreadActivity">
+                tools:context="com.onem.onemwallet.presenter.activities.BreadActivity">
 
     <LinearLayout
         android:id="@+id/toolbar_layout"
@@ -69,7 +69,7 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:layout_constraintRight_toRightOf="parent"/>
 
-                    <com.breadwallet.presenter.customviews.BRText
+                    <com.onem.onemwallet.presenter.customviews.BRText
                         android:id="@+id/primary_price"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
                         android:layout_marginBottom="8dp"
                         app:layout_constraintVertical_bias="0.492"/>
 
-                    <com.breadwallet.presenter.customviews.BRText
+                    <com.onem.onemwallet.presenter.customviews.BRText
                         android:id="@+id/equals"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -101,7 +101,7 @@
                         app:layout_constraintVertical_bias="0.492"
                         app:layout_constraintLeft_toRightOf="@+id/primary_price"/>
 
-                    <com.breadwallet.presenter.customviews.BRText
+                    <com.onem.onemwallet.presenter.customviews.BRText
                         android:id="@+id/secondary_price"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -117,7 +117,7 @@
                         app:layout_constraintVertical_bias="0.492"
                         app:layout_constraintLeft_toRightOf="@+id/equals"/>
 
-                    <com.breadwallet.presenter.customviews.BRText
+                    <com.onem.onemwallet.presenter.customviews.BRText
                         android:id="@+id/price_change_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -128,7 +128,7 @@
                         app:layout_constraintLeft_toLeftOf="@+id/primary_price"
                         app:layout_constraintTop_toBottomOf="@+id/primary_price"/>
 
-                    <com.breadwallet.presenter.customviews.BRText
+                    <com.onem.onemwallet.presenter.customviews.BRText
                         android:id="@+id/manage_text"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -145,7 +145,7 @@
                 </android.support.constraint.ConstraintLayout>
             </android.support.v7.widget.Toolbar>
 
-            <com.breadwallet.presenter.customviews.BRSearchBar
+            <com.onem.onemwallet.presenter.customviews.BRSearchBar
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/search_bar"
                 android:layout_width="match_parent"
@@ -156,9 +156,9 @@
                 app:contentInsetLeft="0dp"
                 app:contentInsetStart="0dp"
                 tools:layout_constraintTop_creator="1">
-            </com.breadwallet.presenter.customviews.BRSearchBar>
+            </com.onem.onemwallet.presenter.customviews.BRSearchBar>
 
-            <com.breadwallet.presenter.customviews.BRNotificationBar
+            <com.onem.onemwallet.presenter.customviews.BRNotificationBar
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/notification_bar"
                 android:layout_width="match_parent"
@@ -170,7 +170,7 @@
                 app:contentInsetLeft="0dp"
                 app:contentInsetStart="0dp"
                 tools:layout_constraintTop_creator="1">
-            </com.breadwallet.presenter.customviews.BRNotificationBar>
+            </com.onem.onemwallet.presenter.customviews.BRNotificationBar>
 
         </ViewFlipper>
 
@@ -186,7 +186,7 @@
             tools:layout_constraintRight_creator="1"
             tools:layout_constraintTop_creator="1">
 
-            <com.breadwallet.presenter.customviews.BRText
+            <com.onem.onemwallet.presenter.customviews.BRText
                 android:id="@+id/loading_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -250,7 +250,7 @@
 
     </LinearLayout>
 
-    <com.breadwallet.presenter.customviews.BRText
+    <com.onem.onemwallet.presenter.customviews.BRText
         android:id="@+id/empty_tx_tip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -297,7 +297,7 @@
                 android:layout_marginTop="8dp"
                 android:src="@drawable/ic_send"/>
 
-            <com.breadwallet.presenter.customviews.BRText
+            <com.onem.onemwallet.presenter.customviews.BRText
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_margin="4dp"
@@ -324,7 +324,7 @@
                 android:layout_weight="1"
                 android:src="@drawable/ic_receive"/>
 
-            <com.breadwallet.presenter.customviews.BRText
+            <com.onem.onemwallet.presenter.customviews.BRText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"
@@ -351,7 +351,7 @@
                 android:layout_weight="1"
                 android:src="@drawable/ic_menu"/>
 
-            <com.breadwallet.presenter.customviews.BRText
+            <com.onem.onemwallet.presenter.customviews.BRText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="4dp"

@@ -283,7 +283,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">トランザクションが拒否されました</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">匿名のデータを共有してBreadの機能向上に役立てる</string>
+  <string name="Prompts.ShareData.body">匿名のデータを共有してONEmの機能向上に役立てる</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">匿名のデータを共有する</string>
   <!-- Enable touch ID prompt body -->
@@ -295,7 +295,7 @@
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">PINコードを更新する</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">今後、Breadからの特別なメッセージを受け取るために通知をオンにしてください。</string>
+  <string name="PushNotifications.body">今後、ONEmからの特別なメッセージを受け取るために通知をオンにしてください。</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">プッシュ通知</string>
   <!-- Push notifications are off label -->
@@ -353,7 +353,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20〜45分</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">ライトコインネットワークでトランザクションが完了したと表示されているが、Bread上では完了と表示されない場合。</string>
+  <string name="ReScan.body2">ライトコインネットワークでトランザクションが完了したと表示されているが、ONEm上では完了と表示されない場合。</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">送金しているが、拒否され続けている場合。</string>
   <!-- Start Sync button label -->
@@ -389,7 +389,7 @@
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">セキュリティセンター</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Breadの制限を解除すれば、設定した限度額まで送金可能で便利です。</string>
+  <string name="SecurityCenter.touchIdDescription">ONEmの制限を解除すれば、設定した限度額まで送金可能で便利です。</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Send money amount label -->
@@ -647,7 +647,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">このトランザクションを認証する</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">BreadのiPhoneアプリを開き、ウォレットをセットアップする</string>
+  <string name="Watch.noWalletWarning">ONEmのiPhoneアプリを開き、ウォレットをセットアップする</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">解除</string>
   <!-- Webview loading error message -->
@@ -655,9 +655,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">更新中...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">Breadwalletは新しい見た目と新機能を備えて、Breadという名前に生まれ変わりました。\n\nヘルプをご覧になるには、ほとんどの画面の右上にある(?)をお探しください。</string>
+  <string name="Welcome.body">ONEmwalletは新しい見た目と新機能を備えて、ONEmという名前に生まれ変わりました。\n\nヘルプをご覧になるには、ほとんどの画面の右上にある(?)をお探しください。</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">Breadへようこそ！</string>
+  <string name="Welcome.title">ONEmへようこそ！</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">本当にこのウォレットを削除しますか？</string>
   <!-- Wipe wallet alert title -->
@@ -669,9 +669,9 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">ウォレットを消去し、新しいウォレットを作成したり、復元したりしたい場合は復旧フレーズを入力してください。この段階では残高は残っています。</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">別のウォレットを開設するか復元することにより、このデバイス上で異なるBreadウォレットへのアクセスと管理ができるようになります。</string>
+  <string name="WipeWallet.startMessage">別のウォレットを開設するか復元することにより、このデバイス上で異なるONEmウォレットへのアクセスと管理ができるようになります。</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWaring">このデバイスから現在使用中のBreadウォレットへのアクセスはできなくなります。残高はフレーズに残されます。</string>
+  <string name="WipeWallet.startWaring">このデバイスから現在使用中のONEmウォレットへのアクセスはできなくなります。残高はフレーズに残されます。</string>
   <!-- Wipe wallet navigation item title. -->
   <string name="WipeWallet.title">別のウォレットを作成、または復元する</string>
   <!-- Wipe wallet button title -->

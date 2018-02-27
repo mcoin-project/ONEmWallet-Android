@@ -55,6 +55,7 @@ gradle.properties
 .idea/runConfigurations.xml
 .idea/copyright/profiles_settings.xml
 .navigation/
+app/build/*
 
 # jniLibs files
 #NDK
@@ -65,5 +66,15 @@ crash.txt
 /publishTODO.txt
 .idea/copyright/
 /app/google-services.json
+/app/src/main/res/values/values.xml
 /.idea/markdown-navigator/
 /app/src/main/java/com/breadwallet/presenter/fragments/FragmentBreadSignal.java
+
+# Archived resource files
+Done_buybitcoin.zip
+drawable_ok.zip
+icon.png
+mipmap_ok.zip
+res_ok.zip
+resources/*
+

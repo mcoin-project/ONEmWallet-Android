@@ -7,13 +7,13 @@
         <item name="windowNoTitle">true</item>
         <item name="android:windowBackground">@color/white</item>
         <item name="windowActionBar">true</item>
-        <item name="android:actionBarStyle">@style/BreadActionBar</item>
+        <item name="android:actionBarStyle">@style/ONEmActionBar</item>
         <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
         <item name="android:buttonStyle">@style/RobotoButtonStyle</item>
     </style>
 
     <!-- ActionBar styles -->
-    <style name="BreadActionBar"
+    <style name="ONEmActionBar"
            parent="@style/Widget.AppCompat.ActionBar">
         <item name="android:background">@color/white_trans</item>
     </style>
