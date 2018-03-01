@@ -1,4 +1,4 @@
-![ƀ](/images/icon.png) breadwallet for Android
+![ƀ](/images/icon.png) ONEmWallet for Android
 ----------------------------------
 
 [![download](/images/icon-google-play.png)]
@@ -48,6 +48,4 @@ phrase.
 4. Go to https://github.com/breadwallet/breadwallet-android and clone or download the project
 5. Open the project with Android Studio and let the project sync
 6. Go to SDK Manager and download all the SDK Platforms and SDK Tools
-7. Initialize the submodules - <code>git submodule init</code>
-8. Update the submodules - <code>git submodule update</code>
-9. Build -> Rebuild Project
+7. Build -> Rebuild Project
