@@ -158,7 +158,7 @@ public class BRCurrency {
                 int unit = BRSharedPrefs.getCurrencyUnit(app);
                 switch (unit) {
                     case CURRENT_UNIT_PHOTONS:
-                        return "photons";
+                        return "microMC";
                     case BRConstants.CURRENT_UNIT_LITES:
                         return "milliMC";
                     case BRConstants.CURRENT_UNIT_LITECOINS:
