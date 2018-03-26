@@ -20,6 +20,9 @@
     <item name="white_trans" type="color">#32ffffff</item>
     <item name="black_trans" type="color">#b5000000</item>
     <item name="red_text" type="color">#FF5454</item>
+    <item name="red_text_light" type="color">#F78181</item>
+    <item name="red_text_light_more" type="color">#FAC3C3</item>
+
     <item name="green_text" type="color">#00BF00</item>
     <item name="pink" type="color">#68ffc0c1</item>
     <item name="status_bar" type="color">#000000</item>
