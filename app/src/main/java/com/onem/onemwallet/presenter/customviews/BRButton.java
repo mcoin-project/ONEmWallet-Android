@@ -10,7 +10,6 @@ import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -23,7 +22,6 @@ import android.view.animation.ScaleAnimation;
 import android.widget.Button;
 
 import com.onem.onemwallet.R;
-import com.onem.onemwallet.tools.animation.BRAnimator;
 import com.onem.onemwallet.tools.manager.TypefacesManager;
 import com.onem.onemwallet.tools.util.Utils;
 
@@ -223,7 +221,7 @@ public class BRButton extends Button {
         this.type = type;
 
         if (type == 1) { //blue
-            bPaint.setColor(getContext().getColor(R.color.button_primary_normal));
+            bPaint.setColor(getContext().getColor(R.color.dark_gray));
             setTextColor(getContext().getColor(R.color.white));
         } else if (type == 2) { //gray stroke
             bPaintStroke.setColor(getContext().getColor(R.color.extra_light_gray));
@@ -233,10 +231,10 @@ public class BRButton extends Button {
             bPaint.setColor(getContext().getColor(R.color.button_secondary));
             bPaint.setStyle(Paint.Style.FILL);
         } else if (type == 3) { //blue strokeww
-            bPaintStroke.setColor(getContext().getColor(R.color.button_primary_normal));
+            bPaintStroke.setColor(getContext().getColor(R.color.red_text_light_more));
             bPaintStroke.setStyle(Paint.Style.STROKE);
             bPaintStroke.setStrokeWidth(Utils.getPixelsFromDps(getContext(), 1));
-            setTextColor(getContext().getColor(R.color.button_primary_normal));
+            setTextColor(getContext().getColor(R.color.red_text));
             bPaint.setColor(getContext().getColor(R.color.button_secondary));
             bPaint.setStyle(Paint.Style.FILL);
         }
