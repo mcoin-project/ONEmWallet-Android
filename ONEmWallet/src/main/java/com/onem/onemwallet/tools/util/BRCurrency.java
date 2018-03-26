@@ -160,7 +160,7 @@ public class BRCurrency {
                     case CURRENT_UNIT_PHOTONS:
                         return "photons";
                     case BRConstants.CURRENT_UNIT_LITES:
-                        return "lites";
+                        return "milliMC";
                     case BRConstants.CURRENT_UNIT_LITECOINS:
                         return "MCN";
                 }
@@ -174,7 +174,7 @@ public class BRCurrency {
 
         if (iso.equalsIgnoreCase("MCN")) {
             return 8;
-        } else if (iso.equalsIgnoreCase("lites")) {
+        } else if (iso.equalsIgnoreCase("milliMC")) {
             return 5;
         } else {
             Currency currency = Currency.getInstance(iso);
