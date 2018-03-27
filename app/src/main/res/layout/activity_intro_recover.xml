@@ -93,8 +93,7 @@
             android:elevation="4dp"
             android:text="@string/RecoverWallet.header"
             android:textColor="@color/black"
-            android:textSize="16sp"
-            />
+            android:textSize="16sp" />
 
         <ImageView
             android:id="@+id/imageView7"
@@ -130,7 +129,6 @@
         android:layout_marginTop="@dimen/bread_margin"
         android:background="@drawable/faq_question_white"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
