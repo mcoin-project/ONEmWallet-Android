@@ -104,6 +104,7 @@ public class BRCurrency {
             symbol = currency.getSymbol();
 //            decimalPoints = currency.getDefaultFractionDigits();
         }
+        symbol = "₥";
         decimalFormatSymbols.setCurrencySymbol(symbol);
 //        currencyFormat.setMaximumFractionDigits(decimalPoints);
         currencyFormat.setGroupingUsed(true);
