@@ -3,7 +3,7 @@
   <!-- About screen blog label -->
   <string name="About.blog">Blog</string>
   <!-- About screen footer -->
-  <string name="About.footer">Gemaakt door het globale ONEm team. Versie %1$s.</string>
+  <string name="About.footer">Gemaakt door het globale ONEmWallet team. Versie %1$s.</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Privacyverklaring</string>
   <!-- About screen reddit label -->
@@ -21,7 +21,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Portemonnee Laden</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Mijn ONEm</string>
+  <string name="AccountHeader.defaultWalletName">Mijn ONEmWallet</string>
   <!-- Equals symbol -->
   <string name="AccountHeader.equals">=</string>
   <!-- Manage wallet button title -->
@@ -129,7 +129,7 @@
   <!-- Word label eg. Word #1, Word #2 -->
   <string name="ConfirmPaperPhrase.word">Woord #%1$s</string>
   <!-- Litecoin denomination picker label -->
-  <string name="DefaultCurrency.litecoinLabel">Litecoin-eenheid</string>
+  <string name="DefaultCurrency.litecoinLabel">mCoin-eenheid</string>
   <!-- Exchange rate label -->
   <string name="DefaultCurrency.rateLabel">Wisselkoers</string>
   <!-- Email unavailable alert title -->
@@ -155,7 +155,7 @@
   <!-- Checking private key balance progress view text -->
   <string name="Import.checking">Persoonlijke sleutel balans checken...</string>
   <!-- Sweep private key confirmation message -->
-  <string name="Import.confirm">%1$s van deze persoonlijke sleutel naar je portemonnee sturen? Het Litecoin netwerk zal een heffing ontvangen van %2$s.</string>
+  <string name="Import.confirm">%1$s (%2$s) van deze persoonlijke sleutel naar je portemonnee sturen? Het mCoin netwerk zal een heffing ontvangen van %3$s (%4$s).</string>
   <!-- Duplicate key error message -->
   <string name="Import.Error.duplicate">Deze persoonlijke sleutel zit al in je portemonnee.</string>
   <!-- empty private key error message -->
@@ -173,13 +173,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Portemonnee die geïmporteerd kan worden</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Door een portemonnee te importeren plaats je het geld van je andere portemonnee naar je ONEm portemonnee via een enkele transactie.</string>
+  <string name="Import.message">Door een portemonnee te importeren plaats je het geld van je andere portemonnee naar je ONEmWallet portemonnee via een enkele transactie.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Deze persoonlijke sleutel is beveiligd met een wachtwoord.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">wachtwoord</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Jouw ONEm Portemonnee</string>
+  <string name="Import.rightCaption">Jouw ONEmWallet Portemonnee</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Scan Persoonlijke Sleutel</string>
   <!-- Import wallet success alert title -->
@@ -199,9 +199,9 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Negeren</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">APPARAAT BEVEILIGING BESCHADIGD\nElke \'jailbreak\' app heeft toegang tot de sleutelhanger data van ONEm en kan hiermee je Litecoins stelen! Wis deze portemonnee direct en herstel het op een veilig apparaat.</string>
+  <string name="JailbreakWarnings.messageWithBalance">APPARAAT BEVEILIGING BESCHADIGD\nElke \'jailbreak\' app heeft toegang tot de sleutelhanger data van ONEmWallet en kan hiermee je mCoins stelen! Wis deze portemonnee direct en herstel het op een veilig apparaat.</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithoutBalance">APPARAAT BEVEILIGING BESCHADIGD\nElke \'jailbreak\' app heeft toegang tot de sleutelhanger data van ONEm en kan hiermee je Litecoins stelen. Gebruik ONEm a.u.b. alleen op een niet-gejailbreakt apparaat.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">APPARAAT BEVEILIGING BESCHADIGD\nElke \'jailbreak\' app heeft toegang tot de sleutelhanger data van ONEmWallet en kan hiermee je mCoins stelen. Gebruik ONEmWallet a.u.b. alleen op een niet-gejailbreakt apparaat.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">WAARSCHUWING</string>
   <!-- Wipe wallet button -->
@@ -209,7 +209,7 @@
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Locatievoorzieningen zijn uitgeschakeld.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">ONEm heeft geen toestemming om locatievoorzieningen te gebruiken.</string>
+  <string name="LocationPlugin.notAuthorized">ONEmWallet heeft geen toestemming om locatievoorzieningen te gebruiken.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Je hebt je portemonnee gecreëerd op %1$s</string>
   <!-- Manage wallet description text -->
@@ -219,7 +219,7 @@
   <!-- Manage wallet modal title -->
   <string name="ManageWallet.title">Portemonnee Beheren</string>
   <!-- Buy bitcoin title -->
-  <string name="MenuButton.buy">Litecoins Kopen</string>
+  <string name="MenuButton.buy">mCoins Kopen</string>
   <!-- Menu button title -->
   <string name="MenuButton.lock">Portemonnee Vergrendelen</string>
   <!-- Menu button title -->
@@ -251,7 +251,7 @@
   <!-- Node status label -->
   <string name="NodeSelector.statusLabel">Connectiestatus van de node</string>
   <!-- Node Selector view title -->
-  <string name="NodeSelector.title">Litecoin-nodes</string>
+  <string name="NodeSelector.title">mCoin-nodes</string>
   <!-- Bad Payment request alert title -->
   <string name="PaymentProtocol.Errors.badPaymentRequest">Slecht Betalingsverzoek</string>
   <!-- Error opening payment protocol file message -->
@@ -263,9 +263,9 @@
   <!-- Payment too small alert title -->
   <string name="PaymentProtocol.Errors.smallOutputError">Kon de betaling niet uitvoeren</string>
   <!-- Amount too small error message -->
-  <string name="PaymentProtocol.Errors.smallPayment">Litecoin betalingen kunnen niet minder zijn dan %1$s.</string>
+  <string name="PaymentProtocol.Errors.smallPayment">mCoin betalingen kunnen niet minder zijn dan %1$s.</string>
   <!-- Output too small error message. -->
-  <string name="PaymentProtocol.Errors.smallTransaction">Litecoin transactie outputs kunnen niet minder zijn dan $@.</string>
+  <string name="PaymentProtocol.Errors.smallTransaction">mCoin transactie outputs kunnen niet minder zijn dan $@.</string>
   <!-- Unsupported signature type payment protocol error message -->
   <string name="PaymentProtocol.Errors.unsupportedSignatureType">niet-ondersteund handtekening type</string>
   <!-- Untrusted certificate payment protocol error message -->
@@ -283,7 +283,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transactie Geweigerd</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Help ons bij het verbeteren van ONEm door je anonieme data met ons te delen</string>
+  <string name="Prompts.ShareData.body">Help ons bij het verbeteren van ONEmWallet door je anonieme data met ons te delen</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Deel Anonieme Data</string>
   <!-- Enable touch ID prompt body -->
@@ -291,7 +291,7 @@
   <!-- Enable touch ID prompt title -->
   <string name="Prompts.TouchId.title">Touch ID Inschakelen</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">ONEm is geüpgrade naar een 6-cijferige PIN. Tik hier om te upgraden.</string>
+  <string name="Prompts.UpgradePin.body">ONEmWallet is geüpgrade naar een 6-cijferige PIN. Tik hier om te upgraden.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">PIN Upgraden</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
@@ -325,7 +325,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Papieren Sleutel Invoeren</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Herstel je ONEm met je papieren sleutel.</string>
+  <string name="RecoverWallet.intro">Herstel je ONEmWallet met je papieren sleutel.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">De papieren sleutel die je hebt ingevoerd is ongeldig. Check ieder woord a.u.b. en probeer het opnieuw.</string>
   <!-- Previous button accessibility label -->
@@ -353,7 +353,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minuten</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Als een transactie als voltooid staat op het Litecoin netwerk maar niet in je ONEm.</string>
+  <string name="ReScan.body2">Als een transactie als voltooid staat op het mCoin netwerk maar niet in je ONEmWallet.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Je kreeg herhaaldelijk een foutmelding die zei dat je transactie werd afgewezen.</string>
   <!-- Start Sync button label -->
@@ -379,17 +379,17 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Activeer alle veiligheidsmaatregelen voor maximale bescherming.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">De enige manier om toegang te hebben tot je Litecoins is als je je telefoon verliest of upgrade.</string>
+  <string name="SecurityCenter.paperKeyDescription">De enige manier om toegang te hebben tot je mCoins is als je je telefoon verliest of upgrade.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Papieren Sleutel</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Beschermt je ONEm van ongeautoriseerde gebruikers.</string>
+  <string name="SecurityCenter.pinDescription">Beschermt je ONEmWallet van ongeautoriseerde gebruikers.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">6-cijferige PIN</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Veiligheidscentrum</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Ontgrendel je ONEm handig en stuur geld tot een bepaalde ingestelde limiet.</string>
+  <string name="SecurityCenter.touchIdDescription">Ontgrendel je ONEmWallet handig en stuur geld tot een bepaalde ingestelde limiet.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Send money amount label -->
@@ -399,7 +399,7 @@
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Ga naar Instellingen om camera gebruik toe te staan.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">ONEm heeft geen toestemming voor het gebruik van de camera</string>
+  <string name="Send.cameraUnavailableTitle">ONEmWallet heeft geen toestemming voor het gebruik van de camera</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">De bestemming is je eigen adres. Je kunt het niet naar jezelf sturen.</string>
   <!-- Could not create transaction alert title -->
@@ -441,7 +441,7 @@
   <!-- Send money to label -->
   <string name="Send.toLabel">Naar</string>
   <!-- Adress already used alert message - first part -->
-  <string name="Send.UsedAddress.firstLine">Litecoin adressen zijn alleen bedoeld voor enkel gebruik.</string>
+  <string name="Send.UsedAddress.firstLine">mCoin adressen zijn alleen bedoeld voor enkel gebruik.</string>
   <!-- Adress already used alert message - second part -->
   <string name="Send.UsedAddress.secondLIne">Hergebruikt vermindert privacy voor zowel jou en de ontvanger en kan resulteren in verlies als de ontvanger niet direct het adres beheert.</string>
   <!-- Adress already used alert title -->
@@ -455,7 +455,7 @@
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Doe Mee aan Early Access</string>
   <!-- Are you enjoying bread alert message body -->
-  <string name="Settings.enjoying">Vind je ONEm leuk?</string>
+  <string name="Settings.enjoying">Vind je ONEmWallet leuk?</string>
   <!-- Import wallet label -->
   <string name="Settings.importTitle">Importeer Portemonnee</string>
   <!-- Manage settings section header -->
@@ -477,7 +477,7 @@
   <!-- Start or recover another wallet menu label. -->
   <string name="Settings.wipe">Begin of herstel een andere portomonnee</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Help om ONEm te verbeteren door je anonieme data met ons te delen. Dit bevat geen financiële informatie. We respecteren je financiële privacy.</string>
+  <string name="ShareData.body">Help om ONEmWallet te verbeteren door je anonieme data met ons te delen. Dit bevat geen financiële informatie. We respecteren je financiële privacy.</string>
   <!-- Share data header -->
   <string name="ShareData.header">Data Delen?</string>
   <!-- Share data switch label. -->
@@ -485,7 +485,7 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Schrijf Papieren Sleutel Opnieuw Op</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Je papieren sleutel is de enige manier om je ONEm te herstellen als je telefoon verloren, gestolen, kapot of geüpgrade is.\n\nWe zullen je een lijst met woorden laten zie die je op een papiertje moet schrijven en veilig moet bewaren.</string>
+  <string name="StartPaperPhrase.body">Je papieren sleutel is de enige manier om je ONEmWallet te herstellen als je telefoon verloren, gestolen, kapot of geüpgrade is.\n\nWe zullen je een lijst met woorden laten zie die je op een papiertje moet schrijven en veilig moet bewaren.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Schrijf Papieren Sleutel Op</string>
   <!-- Argument is date -->
@@ -511,13 +511,13 @@
   <!-- You can customize your Touch ID Spending Limit from the [TouchIdSettings.linkText gets added here as a button] -->
   <string name="TouchIdSettings.customizeText">Je kunt je Touch-ID uitgavenlimiet aanpassen van de %1$s.</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Gebruik je vingerafdruk om je ONEm te ontgrendelen en geld tot een ingestelde limiet te versturen.</string>
+  <string name="TouchIdSettings.label">Gebruik je vingerafdruk om je ONEmWallet te ontgrendelen en geld tot een ingestelde limiet te versturen.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Touch-ID uitgavenlimietscherm</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Bestedingslimiet: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Schakel Touch ID in voor ONEm</string>
+  <string name="TouchIdSettings.switchLabel">Schakel Touch ID in voor ONEmWallet</string>
   <!-- Touch ID settings view title -->
   <string name="TouchIdSettings.title">Touch ID</string>
   <!-- Touch ID unavailable alert message -->
@@ -589,7 +589,7 @@
   <!-- "Sent [$5] to [address]" => This is the "to [address]" part. -->
   <string name="TransactionDetails.to">aan %1$s</string>
   <!-- Transaction ID header -->
-  <string name="TransactionDetails.txHashHeader">Litecoin Transactie-ID</string>
+  <string name="TransactionDetails.txHashHeader">mCoin Transactie-ID</string>
   <!-- (this transaction was) Received at this address: -->
   <string name="TransactionDirection.address">Ontvangen op dit adres</string>
   <!-- (this transaction was) Sent to this address: -->
@@ -605,15 +605,15 @@
   <!-- Unlock Screen sub-header -->
   <string name="UnlockScreen.subheader">PIN Invoeren</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Ontgrendel je ONEm.</string>
+  <string name="UnlockScreen.touchIdPrompt">Ontgrendel je ONEmWallet.</string>
   <!-- Unlock with TouchID accessibility label -->
   <string name="UnlockScreen.touchIdText">Ontgrendel met Touch ID</string>
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Portemonnee Ontgrendeld</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Onthoud deze PIN. Als je deze vergeet, zul je niet in staat zijn om bij je Litecoins te kunnen.</string>
+  <string name="UpdatePin.caption">Onthoud deze PIN. Als je deze vergeet, zul je niet in staat zijn om bij je mCoins te kunnen.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Je PIN zal worden gebruikt om je ONEm te ontgrendelen en geld te versturen.</string>
+  <string name="UpdatePin.createInstruction">Je PIN zal worden gebruikt om je ONEmWallet te ontgrendelen en geld te versturen.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">PIN Instellen</string>
   <!-- Update PIN title -->
@@ -647,7 +647,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Autoriseer deze transactie</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Open de ONEm iPhone app om je portemonnee in te stellen.</string>
+  <string name="Watch.noWalletWarning">Open de ONEmWallet iPhone app om je portemonnee in te stellen.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Verwerpen</string>
   <!-- Webview loading error message -->
@@ -655,7 +655,7 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Updaten...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">ONEmwallet is omgedoopt tot ONEm, met een gloednieuw uiterlijk en enkele nieuwe functies.\n\nAls u hulp nodig hebt, zoek naar de (?) rechtsboven in de meeste schermen.</string>
+  <string name="Welcome.body">ONEmwallet is omgedoopt tot ONEmWallet, met een gloednieuw uiterlijk en enkele nieuwe functies.\n\nAls u hulp nodig hebt, zoek naar de (?) rechtsboven in de meeste schermen.</string>
   <!-- Top title of welcome screen -->
   <string name="Welcome.title">Welkom bij Brood!</string>
   <!-- Wipe wallet alert message -->
@@ -669,9 +669,9 @@
   <!-- Enter phrase to wipe wallet instruction. -->
   <string name="WipeWallet.instruction">Voer de herstelzin van deze portomonnee in om hem te wissen of een anderen te herstellen. Je huidige saldo zal op deze zin blijven.</string>
   <!-- Start wipe wallet view message -->
-  <string name="WipeWallet.startMessage">Een andere portemonnee beginnen of herstellen zal u toestaan om nog een ONEm portemonnee op dit apparaat te gebruiken.</string>
+  <string name="WipeWallet.startMessage">Een andere portemonnee beginnen of herstellen zal u toestaan om nog een ONEmWallet portemonnee op dit apparaat te gebruiken.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWaring">U zal niet langer uw huidige ONEm portemonnee kunnen bereiken vanaf dit apparaat. Uw saldo zal hetzelfde blijven.</string>
+  <string name="WipeWallet.startWaring">U zal niet langer uw huidige ONEmWallet portemonnee kunnen bereiken vanaf dit apparaat. Uw saldo zal hetzelfde blijven.</string>
   <!-- Wipe wallet navigation item title. -->
   <string name="WipeWallet.title">Start of herstel een anderen portomonnee</string>
   <!-- Wipe wallet button title -->
