@@ -7,8 +7,6 @@ import android.net.Uri;
 import android.os.Environment;
 import android.util.Log;
 
-import com.onem.onemwallet.R;
-import com.onem.onemwallet.tools.util.Utils;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;
 import com.google.zxing.MultiFormatWriter;
@@ -22,8 +20,6 @@ import java.io.IOException;
 import java.util.EnumMap;
 import java.util.Map;
 
-import static android.R.attr.path;
-import static android.R.attr.width;
 import static android.graphics.Color.BLACK;
 import static android.graphics.Color.WHITE;
 
@@ -123,12 +119,12 @@ public class QRUtils {
             intent.putExtra("sms_body", bitcoinUri);
             intent.putExtra("exit_on_sent", true);
         } else {
-            intent.putExtra(Intent.EXTRA_SUBJECT, "Litecoin Address");
+            intent.putExtra(Intent.EXTRA_SUBJECT, "mCoin Address");
             intent.putExtra(Intent.EXTRA_TEXT, bitcoinUri);
         }
         if (uri != null)
             intent.putExtra(Intent.EXTRA_STREAM, uri);
-        app.startActivity(Intent.createChooser(intent, "Litecoin Address"));
+        app.startActivity(Intent.createChooser(intent, "mCoin Address"));
     }
 
     private static String saveToExternalStorage(Bitmap bitmapImage, Activity app) {

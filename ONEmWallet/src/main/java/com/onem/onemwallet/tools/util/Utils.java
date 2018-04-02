@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Build;
@@ -24,11 +23,8 @@ import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
-
-import okhttp3.internal.Util;
 
 /**
  * BreadWallet
@@ -178,7 +174,7 @@ public class Utils {
     public static String createBitcoinUrl(String address, long satoshiAmount, String label, String message, String rURL) {
 
         Uri.Builder builder = new Uri.Builder();
-        builder = builder.scheme("litecoin");
+        builder = builder.scheme("mCoin");
         if (address != null && !address.isEmpty())
             builder = builder.appendPath(address);
         if (satoshiAmount != 0)
