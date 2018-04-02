@@ -139,7 +139,8 @@ public class BRCurrency {
                         break;
                 }
             }
-            symbol = currencySymbolString;
+           // symbol = currencySymbolString;
+            symbol = "₥";
         } else {
             Currency currency;
             try {
@@ -147,7 +148,8 @@ public class BRCurrency {
             } catch (IllegalArgumentException e) {
                 currency = Currency.getInstance(Locale.getDefault());
             }
-            symbol = currency.getSymbol();
+            //symbol = currency.getSymbol();
+            symbol = "₥";
         }
         return Utils.isNullOrEmpty(symbol) ? iso : symbol;
     }
