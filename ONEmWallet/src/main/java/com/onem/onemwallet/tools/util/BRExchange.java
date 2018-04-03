@@ -1,11 +1,13 @@
 package com.onem.onemwallet.tools.util;
 
 import android.content.Context;
+import android.util.Log;
 
 import com.onem.onemwallet.presenter.entities.CurrencyEntity;
 import com.onem.onemwallet.tools.manager.BRSharedPrefs;
 import com.onem.onemwallet.tools.sqlite.CurrencyDataSource;
 import com.onem.onemwallet.wallet.BRWalletManager;
+
 
 import java.math.BigDecimal;
 
@@ -108,7 +110,7 @@ public class BRExchange {
 
     //get an iso amount from  satoshis
     public static BigDecimal getAmountFromSatoshis(Context app, String iso, BigDecimal amount) {
-//        Log.e(TAG, "getAmountFromSatoshis: " + iso + ":" + amount);
+        // Log.e(TAG, "getAmountFromSatoshis: " + iso + ":" + amount);
         BigDecimal result;
         if (iso.equalsIgnoreCase("MCN")) {
             result = getBitcoinForSatoshis(app, amount);
@@ -116,11 +118,22 @@ public class BRExchange {
             //multiply by 100 because core function localAmount accepts the smallest amount e.g. cents
             CurrencyEntity ent = CurrencyDataSource.getInstance().getCurrencyByIso(iso);
             if (ent == null) return new BigDecimal(0);
-            BigDecimal rate = new BigDecimal(ent.rate).multiply(new BigDecimal(100));
+            Log.e(TAG, "getAmountFromSatoshis: rate" + ent.rate + "iso: " + iso);
+
+            BigDecimal rate = new BigDecimal(ent.rate); //.multiply(new BigDecimal(100));
+
+
+            // round scale to avoid conversion wierdness like 100 MCN = 2.99 USD instead of 3 USD
+            rate = rate.setScale(8, BigDecimal.ROUND_HALF_EVEN);
+
+            rate = rate.multiply(new BigDecimal(100));
+
+            Log.e(TAG, "getAmountFromSatoshis: rate" + rate + "iso: " + iso);
+
             result = new BigDecimal(BRWalletManager.getInstance().localAmount(amount.longValue(),rate.doubleValue()))
                     .divide(new BigDecimal(100), 2, BRConstants.ROUNDING_MODE);
         }
-//        Log.e(TAG, "getAmountFromSatoshis: " + iso + ":RESULT:" + result);
+        // Log.e(TAG, "getAmountFromSatoshis: " + iso + ":RESULT:" + result);
         return result;
     }
 
