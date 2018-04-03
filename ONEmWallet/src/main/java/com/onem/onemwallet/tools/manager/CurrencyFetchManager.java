@@ -184,7 +184,7 @@ public class CurrencyFetchManager {
 
 
     public static JSONArray getJSonArray(Activity activity) {
-        String jsonString = BuildConfig.BITCOIN_TESTNET ? "https://junction-poc.onem.com/mcoin/api/v1/rates" : "https://junction.onem.com/mcoin/api/v1/rates";
+        String jsonString = BuildConfig.BITCOIN_TESTNET ? callURL(activity, "https://junction-poc.onem.com/mcoin/api/v1/rates") : callURL(activity, "https://junction.onem.com/mcoin/api/v1/rates");
         // String jsonString = callURL(activity, "https://litecoin.com/api/v1/rates");
         JSONArray jsonArray = null;
         if (jsonString == null) return null;
