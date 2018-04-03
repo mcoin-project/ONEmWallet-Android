@@ -124,7 +124,7 @@ public class BRExchange {
 
 
             // round scale to avoid conversion wierdness like 100 MCN = 2.99 USD instead of 3 USD
-            rate = rate.setScale(8, BigDecimal.ROUND_HALF_EVEN);
+            rate = rate.setScale(2, BigDecimal.ROUND_HALF_EVEN);
 
             rate = rate.multiply(new BigDecimal(100));
 
