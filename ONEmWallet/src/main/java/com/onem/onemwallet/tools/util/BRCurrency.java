@@ -94,7 +94,8 @@ public class BRCurrency {
         decimalFormatSymbols = currencyFormat.getDecimalFormatSymbols();
 //        int decimalPoints = 0;
         if (Objects.equals(isoCurrencyCode, "MCN")) {
-            symbol = BRExchange.getBitcoinSymbol(app);
+            // symbol = BRExchange.getBitcoinSymbol(app);
+            symbol = "₥";
         } else {
             try {
                 currency = Currency.getInstance(isoCurrencyCode);
@@ -104,7 +105,6 @@ public class BRCurrency {
             symbol = currency.getSymbol();
 //            decimalPoints = currency.getDefaultFractionDigits();
         }
-        symbol = "₥";
         decimalFormatSymbols.setCurrencySymbol(symbol);
 //        currencyFormat.setMaximumFractionDigits(decimalPoints);
         currencyFormat.setGroupingUsed(true);
