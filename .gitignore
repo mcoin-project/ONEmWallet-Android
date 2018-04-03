@@ -35,6 +35,7 @@ proguard/
 *.iml
 *.keystore
 gradle.properties
+local.properties
 */local.properties
 */out
 */*/build
@@ -43,6 +44,7 @@ gradle.properties
 *.ipr
 *~
 *.swp
+.idea/*
 .idea/.name
 .idea/workspace.xml
 .idea/libraries
