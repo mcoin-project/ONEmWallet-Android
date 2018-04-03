@@ -88,7 +88,7 @@ public class CurrencyFetchManager {
         Set<CurrencyEntity> set = new LinkedHashSet<>();
         try {
             JSONArray arr = getJSonArray(context);
-            updateFeePerKb(context);
+            // updateFeePerKb(context);
             if (arr != null) {
                 int length = arr.length();
                 for (int i = 0; i < length; i++) {
