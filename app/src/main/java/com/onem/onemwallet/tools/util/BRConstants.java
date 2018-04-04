@@ -142,9 +142,11 @@ public class BRConstants {
     public static final String wipeWallet = "wipe-wallet";
 
     // or https://twitter.com/onemwallet
-    public static final String TWITTER_LINK = "https://twitter.com/mcoin";
+    public static final String TWITTER_LINK = "https://twitter.com/mcoin_official";
     public static final String REDDIT_LINK = "https://www.reddit.com/r/mcoin";
     public static final String BLOG_LINK = "http://mcoin.global";
+    public static final String PRIVACY_LINK = "https://www.onem.com/privacy_statement.html";
+    public static final String TERMS_LINK = "https://www.onem.com/mcoin/terms_n_conditions.html";
 
     public static final String BLOCK_EXPLORER_BASE_URL = BuildConfig.BITCOIN_TESTNET ? "http://explorer.mcoin.global/tx/" :"https://explorer.mcoin.global/tx/";
 

@@ -24,7 +24,6 @@ public class AboutActivity extends BRActivity {
     private TextView policyText;
     private TextView infoText;
 
-    private ImageView redditShare;
     private ImageView twitterShare;
     private ImageView blogShare;
     private static AboutActivity app;
@@ -59,7 +58,6 @@ public class AboutActivity extends BRActivity {
         infoText.setText(getString(R.string.About_footer, verCode));
 
         blogShare = (ImageView) findViewById(R.id.blog_share_button);
-        redditShare = (ImageView) findViewById(R.id.reddit_share_button);
         twitterShare = (ImageView) findViewById(R.id.twitter_share_button);
 
         blogShare.setOnClickListener(new View.OnClickListener() {
@@ -69,20 +67,28 @@ public class AboutActivity extends BRActivity {
             }
         });
 
-        redditShare.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Utils.openUrl(AboutActivity.this, BRConstants.REDDIT_LINK);
-            }
-        });
-
         twitterShare.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Utils.openUrl(AboutActivity.this, BRConstants.TWITTER_LINK);
             }
         });
+
+        termsText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Utils.openUrl(AboutActivity.this, BRConstants.TERMS_LINK);
+            }
+        });
+        policyText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Utils.openUrl(AboutActivity.this, BRConstants.PRIVACY_LINK);
+            }
+        });
+
     }
+
 
     @Override
     protected void onResume() {
