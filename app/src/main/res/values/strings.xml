@@ -495,7 +495,7 @@
   <!-- Support email adress & twitter -->
   <string name="Support.Title">Have questions or concerns?</string>
   <!-- Support email adress & twitter -->
-  <string name="Support.Message">Leave us a message at contact@onemwallet.org or tweet us @MCFoundation</string>
+  <string name="Support.Message">Email wallet@onem.com and include a detailed description and screenshots of your issue.</string>
   <!-- Syncing view connectiong state header text -->
   <string name="SyncingView.connecting">Connecting</string>
   <!-- Syncing view header text -->

@@ -177,7 +177,7 @@ public class BRAnimator {
                 null,
                 null,
                 0);
-        FirebaseCrash.log("showSupportFragment");
+        // FirebaseCrash.log("showSupportFragment");
 
         // Temporarily disable SupportFragment
 //        if (app == null) {
