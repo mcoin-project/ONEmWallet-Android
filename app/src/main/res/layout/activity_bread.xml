@@ -258,7 +258,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:text="@string/TransactionDetails.emptyMessage"
-        android:textColor="@color/light_gray"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:customFont="CircularPro-Book.otf"
         tools:layout_constraintBottom_creator="1"
@@ -273,7 +273,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_gravity="bottom"
-        android:background="@color/extra_light_blue_background"
+        android:background="@color/red_text"
         android:elevation="9dp"
         android:orientation="horizontal"
         android:weightSum="3"
@@ -304,7 +304,7 @@
                 android:layout_weight="1"
                 android:textAllCaps="true"
                 android:text="@string/Send.sendLabel"
-                android:textColor="@color/pin_pad_text"
+                android:textColor="@color/white"
                 app:customFont="CircularPro-Medium.otf"/>
         </LinearLayout>
 
@@ -331,7 +331,7 @@
                 android:layout_weight="1"
                 android:text="@string/Button.receive"
                 android:textAllCaps="true"
-                android:textColor="@color/pin_pad_text"
+                android:textColor="@color/white"
                 app:customFont="CircularPro-Medium.otf"/>
         </LinearLayout>
 
@@ -358,7 +358,7 @@
                 android:layout_weight="1"
                 android:text="@string/Button.menu"
                 android:textAllCaps="true"
-                android:textColor="@color/pin_pad_text"
+                android:textColor="@color/white"
                 app:customFont="CircularPro-Medium.otf"/>
         </LinearLayout>
 
