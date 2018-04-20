@@ -94,8 +94,7 @@ public class BRCurrency {
         decimalFormatSymbols = currencyFormat.getDecimalFormatSymbols();
 //        int decimalPoints = 0;
         if (Objects.equals(isoCurrencyCode, "MCN")) {
-            // symbol = BRExchange.getBitcoinSymbol(app);
-            symbol = "₥";
+            symbol = BRExchange.getMcoinSymbol(app);
         } else {
             try {
                 currency = Currency.getInstance(isoCurrencyCode);
@@ -124,23 +123,22 @@ public class BRCurrency {
     public static String getSymbolByIso(Context app, String iso) {
         String symbol;
         if (Objects.equals(iso, "MCN")) {
-            String currencySymbolString = BRConstants.litecoinLowercase;
+            String currencySymbolString = BRConstants.mcoinLowercase;
             if (app != null) {
                 int unit = BRSharedPrefs.getCurrencyUnit(app);
                 switch (unit) {
                     case CURRENT_UNIT_PHOTONS:
-                        currencySymbolString = "m" + BRConstants.litecoinLowercase;
+                        currencySymbolString = "m" + BRConstants.mcoinLowercase;
                         break;
                     case BRConstants.CURRENT_UNIT_LITES:
-                        currencySymbolString = BRConstants.litecoinLowercase;
+                        currencySymbolString = BRConstants.mcoinLowercase;
                         break;
                     case BRConstants.CURRENT_UNIT_LITECOINS:
-                        currencySymbolString = BRConstants.litecoinUppercase;
+                        currencySymbolString = BRConstants.mcoinUppercase;
                         break;
                 }
             }
-           // symbol = currencySymbolString;
-            symbol = "₥";
+            symbol = currencySymbolString;
         } else {
             Currency currency;
             try {
@@ -148,8 +146,7 @@ public class BRCurrency {
             } catch (IllegalArgumentException e) {
                 currency = Currency.getInstance(Locale.getDefault());
             }
-            //symbol = currency.getSymbol();
-            symbol = "₥";
+            symbol = currency.getSymbol();
         }
         return Utils.isNullOrEmpty(symbol) ? iso : symbol;
     }
