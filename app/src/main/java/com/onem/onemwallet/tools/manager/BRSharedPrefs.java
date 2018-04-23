@@ -109,6 +109,18 @@ public class BRSharedPrefs {
         editor.apply();
     }
 
+    public static String getPreferredFiatIso(Context context) {
+        SharedPreferences settingsToGet = context.getSharedPreferences(BRConstants.PREFS_NAME, 0);
+        String defaultIso;
+        try {
+            defaultIso = Currency.getInstance(Locale.getDefault()).getCurrencyCode();
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
+            defaultIso = Currency.getInstance(Locale.US).getCurrencyCode();
+        }
+        return settingsToGet.getString(BRConstants.CURRENT_CURRENCY, defaultIso);
+    }
+
     public static String getReceiveAddress(Context context) {
         SharedPreferences prefs = context.getSharedPreferences(BRConstants.PREFS_NAME, Context.MODE_PRIVATE);
         return prefs.getString(BRConstants.RECEIVE_ADDRESS, "");
