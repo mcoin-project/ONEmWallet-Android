@@ -86,22 +86,19 @@ public class BRExchange {
         return result;
     }
 
-    public static String getBitcoinSymbol(Context app) {
-        String currencySymbolString = BRConstants.litecoinLowercase;
+    static String getMcoinSymbol(Context app) {
+        String currencySymbolString = BRConstants.mcoinLowercase;
         if (app != null) {
             int unit = BRSharedPrefs.getCurrencyUnit(app);
             switch (unit) {
                 case CURRENT_UNIT_PHOTONS:
-                    currencySymbolString = "m" + BRConstants.litecoinLowercase;
-//                        decimalPoints = 2;
-//                    if (getNumberOfDecimalPlaces(result.toPlainString()) == 1)
-//                        currencyFormat.setMinimumFractionDigits(1);
+                    currencySymbolString = "m" + BRConstants.mcoinLowercase;
                     break;
                 case BRConstants.CURRENT_UNIT_LITES:
-                    currencySymbolString = BRConstants.litecoinLowercase;
+                    currencySymbolString = BRConstants.mcoinLowercase;
                     break;
                 case BRConstants.CURRENT_UNIT_LITECOINS:
-                    currencySymbolString = BRConstants.litecoinUppercase;
+                    currencySymbolString = BRConstants.mcoinUppercase;
                     break;
             }
         }

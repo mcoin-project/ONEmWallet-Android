@@ -242,12 +242,12 @@ public class FragmentSend extends Fragment {
                     TransitionManager.beginDelayedTransition(amountLayout, tr);
 
                     int px4 = Utils.getPixelsFromDps(getContext(), 4);
-                    int px32 = Utils.getPixelsFromDps(getContext(), 32);
+
                     set.connect(balanceText.getId(), ConstraintSet.TOP, isoText.getId(), ConstraintSet.BOTTOM, px4);
                     set.connect(feeText.getId(), ConstraintSet.TOP, balanceText.getId(), ConstraintSet.BOTTOM, px4);
                     set.connect(feeText.getId(), ConstraintSet.BOTTOM, ConstraintSet.PARENT_ID, ConstraintSet.BOTTOM, px4);
-                    set.connect(isoText.getId(), ConstraintSet.TOP, ConstraintSet.PARENT_ID, ConstraintSet.TOP, px32);
-                    set.connect(isoText.getId(), ConstraintSet.BOTTOM, 0, ConstraintSet.TOP, 0);
+                    set.connect(isoText.getId(), ConstraintSet.TOP, ConstraintSet.PARENT_ID, ConstraintSet.TOP, px4);
+                    set.connect(isoText.getId(), ConstraintSet.BOTTOM, -1, ConstraintSet.TOP, -1);
                     set.applyTo(amountLayout);
 
                 }

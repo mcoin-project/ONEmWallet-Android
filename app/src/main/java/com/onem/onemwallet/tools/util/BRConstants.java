@@ -111,6 +111,9 @@ public class BRConstants {
     public static final String litecoinLowercase = "\u0142";
     public static final String litecoinUppercase = "\u0141";
 
+    public static final String mcoinLowercase = "\u2A4B";  // ⩋
+    public static final String mcoinUppercase = "\u20A5";  // ₥
+
     public static final long PASS_CODE_TIME_LIMIT = TimeUnit.MILLISECONDS.convert(6, TimeUnit.DAYS);
 
     public static boolean PLATFORM_ON = true;

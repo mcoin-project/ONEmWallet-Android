@@ -78,7 +78,7 @@ public class BRSender {
                     long minAmount = BRWalletManager.getInstance().getMinOutputAmountRequested();
                     errTitle[0] = app.getString(R.string.Alerts_sendFailure);
                     errMessage[0] = String.format(Locale.getDefault(), app.getString(R.string.PaymentProtocol_Errors_smallPayment),
-                            BRConstants.litecoinLowercase + new BigDecimal(minAmount).divide(new BigDecimal(100), BRConstants.ROUNDING_MODE));
+                            BRConstants.mcoinLowercase + new BigDecimal(minAmount).divide(new BigDecimal(100), BRConstants.ROUNDING_MODE));
                 } catch (SpendingNotAllowed spendingNotAllowed) {
                     showSpendNotAllowed(app);
                     return;
@@ -267,7 +267,7 @@ public class BRSender {
         //amount can't be less than the min
         if (request.amount < minOutput) {
             final String bitcoinMinMessage = String.format(Locale.getDefault(), ctx.getString(R.string.PaymentProtocol_Errors_smallTransaction),
-                    BRConstants.litecoinLowercase + new BigDecimal(minOutput).divide(new BigDecimal("100")));
+                    BRConstants.mcoinLowercase + new BigDecimal(minOutput).divide(new BigDecimal("100")));
 
 
             ((Activity) ctx).runOnUiThread(new Runnable() {
