@@ -413,6 +413,18 @@ public class BreadActivity extends BRActivity implements BRWalletManager.OnBalan
             }
         });
 
+        final ViewTreeObserver secondaryPriceObserver = secondaryPrice.getViewTreeObserver();
+        secondaryPriceObserver.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+            @Override
+            public void onGlobalLayout() {
+                if (secondaryPriceObserver.isAlive()) {
+                    secondaryPriceObserver.removeOnGlobalLayoutListener(this);
+                }
+                if (uiIsDone) return;
+                uiIsDone = true;
+                setPriceTags(BRSharedPrefs.getPreferredBTC(BreadActivity.this), false);
+            }
+        });
     }
 
     private void saveVisibleFragment() {
