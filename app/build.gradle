@@ -9,10 +9,11 @@ model {
             testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
             applicationId = 'com.onem.onemwallet'
             minSdkVersion.apiLevel = 23
-            targetSdkVersion.apiLevel = 25
-            versionCode = 2
+            targetSdkVersion.apiLevel = 26
+            versionCode = 3
             // versionName = "Portvizitiu"  // A random wallet synonym in a random language (RO here)
-            versionName = "Billetera"  // A random wallet synonym in a random language (ES here)
+            //versionName = "Billetera"  // A random wallet synonym in a random language (ES here)
+            versionName = "Portofel"
         }
 
         productFlavors.with {
