@@ -10,10 +10,11 @@ model {
             applicationId = 'com.onem.onemwallet'
             minSdkVersion.apiLevel = 23
             targetSdkVersion.apiLevel = 26
-            versionCode = 3
+            versionCode = 4
             // versionName = "Portvizitiu"  // A random wallet synonym in a random language (RO here)
-            //versionName = "Billetera"  // A random wallet synonym in a random language (ES here)
-            versionName = "Portofel"
+            // versionName = "Billetera"  // ES
+            // versionName = "Portefeuille"  // FR
+            versionName = "Cartera"  // Catalan
         }
 
         productFlavors.with {
